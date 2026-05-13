@@ -1,10 +1,10 @@
 {
-  "tests": 3,
+  "tests": 4,
   "name": "AllTests",
   "testsuites": [
     {
       "name": "GildedRoseTest",
-      "tests": 3,
+      "tests": 4,
       "testsuite": [
         {
           "name": "Foo",
@@ -17,9 +17,14 @@
           "line": 12
         },
         {
-          "name": "OutOfDatedNormalItemQualityDisplacement",
+          "name": "OutOfDateNormalItemQualityDisplacement",
           "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
           "line": 21
+        },
+        {
+          "name": "FixedQualityOfSulfurasItem",
+          "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 30
         }
       ]
     }

@@ -18,10 +18,19 @@ TEST(GildedRoseTest, NormalItemQualityLowerLimit) {
 }
 
 // TC-02: 기한 지난 일반 아이템
-TEST(GildedRoseTest, OutOfDatedNormalItemQualityDisplacement) {
+TEST(GildedRoseTest, OutOfDateNormalItemQualityDisplacement) {
   std::vector<Item> items = {Item("noname", 0, 5)};
   GildedRose app(items);
   app.updateQuality();
   EXPECT_EQ(-1, app.items[0].sellIn);
   EXPECT_EQ(3, app.items[0].quality);
+}
+
+// TC-03: 전설 아이템은 변하지 않음
+TEST(GildedRoseTest, FixedQualityOfSulfurasItem) {
+  std::vector<Item> items = {Item("Sulfuras", 0, 5)};
+  GildedRose app(items);
+  app.updateQuality();
+  EXPECT_EQ(0, app.items[0].sellIn);
+  EXPECT_EQ(5, app.items[0].quality);
 }
