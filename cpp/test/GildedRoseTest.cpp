@@ -43,3 +43,12 @@ TEST(GildedRoseTest, FixedQualityOfOutOfDateSulfurasItem) {
   EXPECT_EQ(-1, app.items[0].sellIn);
   EXPECT_EQ(5, app.items[0].quality);
 }
+
+// TC-05: 기한 지난 Aged Brie는 품질 +2
+TEST(GildedRoseTest, QualityUp2OutOfDateAgedBrieItem) {
+  std::vector<Item> items = {Item("Aged Brie", 0, 0)};
+  GildedRose app(items);
+  app.updateQuality();
+  EXPECT_EQ(-1, app.items[0].sellIn);
+  EXPECT_EQ(2, app.items[0].quality);
+}

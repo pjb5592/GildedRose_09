@@ -1,10 +1,10 @@
 {
-  "tests": 5,
+  "tests": 6,
   "name": "AllTests",
   "testsuites": [
     {
       "name": "GildedRoseTest",
-      "tests": 5,
+      "tests": 6,
       "testsuite": [
         {
           "name": "Foo",
@@ -30,6 +30,11 @@
           "name": "FixedQualityOfOutOfDateSulfurasItem",
           "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
           "line": 39
+        },
+        {
+          "name": "QualityUp2OutOfDateAgedBrieItem",
+          "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 48
         }
       ]
     }
