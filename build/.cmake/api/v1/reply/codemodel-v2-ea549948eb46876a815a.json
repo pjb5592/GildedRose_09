@@ -1,0 +1,298 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Git::Git::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Git__Git-Debug-57e7e170efdebc11b74d.json",
+					"name" : "Git::Git",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f040eec181a89de70dbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "_deps/googletest-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.googletest-build-Debug-5ad898dd52c6a32b3964.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "D:/DEV/GildedRose_09/build/_deps/googletest-src"
+				},
+				{
+					"build" : "_deps/googletest-build/googlemock",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.googletest-build.googlemock-Debug-57364b560d89b964f4bc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "D:/DEV/GildedRose_09/build/_deps/googletest-src/googlemock",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "_deps/googletest-build/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.googletest-build.googletest-Debug-892b76dd87ebc8e9fce1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "D:/DEV/GildedRose_09/build/_deps/googletest-src/googletest",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"build" : "_deps/approvaltests-build",
+					"childIndexes" : 
+					[
+						5,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.approvaltests-build-Debug-28fe4f3be1152d16249f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "D:/DEV/GildedRose_09/build/_deps/approvaltests-src"
+				},
+				{
+					"build" : "_deps/approvaltests-build/ApprovalTests",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.approvaltests-build.ApprovalTests-Debug-a0e0ac55c86d0f11c346.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 5,
+					"source" : "D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "_deps/approvaltests-build/third_party",
+					"jsonFile" : "directory-_deps.approvaltests-build.third_party-Debug-89f5f991b38108276629.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 4,
+					"source" : "D:/DEV/GildedRose_09/build/_deps/approvaltests-src/third_party"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "GildedRose",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gmock",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "gtest",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						5
+					],
+					"directoryIndexes" : 
+					[
+						4,
+						6
+					],
+					"name" : "ApprovalTests.cpp",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "ApprovalTests",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "ApprovalTests::@32041db75bb8abe10c1a",
+					"jsonFile" : "target-ApprovalTests-Debug-45cbe7f0ecda8d9e32a7.json",
+					"name" : "ApprovalTests",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gilded_rose::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gilded_rose-Debug-04505a2d079e57001db2.json",
+					"name" : "gilded_rose",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gilded_rose_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gilded_rose_test-Debug-f4f5241768e1e90674c8.json",
+					"name" : "gilded_rose_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock::@0f7bb11d64f3678238c7",
+					"jsonFile" : "target-gmock-Debug-a6c4cb6bf8e492e4f919.json",
+					"name" : "gmock",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock_main::@0f7bb11d64f3678238c7",
+					"jsonFile" : "target-gmock_main-Debug-3f0647f4a1dd9096a7c4.json",
+					"name" : "gmock_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest::@1ea2dfc0605fe3ab2a3f",
+					"jsonFile" : "target-gtest-Debug-43e8c377ff9df75e9376.json",
+					"name" : "gtest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest_main::@1ea2dfc0605fe3ab2a3f",
+					"jsonFile" : "target-gtest_main-Debug-5a8fe484f785b85c2eca.json",
+					"name" : "gtest_main",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/DEV/GildedRose_09/build",
+		"source" : "D:/DEV/GildedRose_09/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	}
+}

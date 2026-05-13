@@ -1,15 +1,65 @@
 {
-  "tests": 1,
+  "tests": 11,
   "name": "AllTests",
   "testsuites": [
     {
       "name": "GildedRoseTest",
-      "tests": 1,
+      "tests": 11,
       "testsuite": [
+        {
+          "name": "Foo",
+          "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 6
+        },
+        {
+          "name": "NormalItemQualityLowerLimit",
+          "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 17
+        },
+        {
+          "name": "OutOfDateNormalItemQualityDisplacement",
+          "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 29
+        },
+        {
+          "name": "FixedQualityOfSulfurasItem",
+          "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 41
+        },
+        {
+          "name": "FixedQualityOfOutOfDateSulfurasItem",
+          "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 53
+        },
+        {
+          "name": "QualityUp2WhenOutOfDateAgedBrieItem",
+          "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 65
+        },
+        {
+          "name": "QualityUpperLimit",
+          "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 77
+        },
+        {
+          "name": "QualityUpWhenBackstageAndSellinOver10",
+          "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 89
+        },
+        {
+          "name": "QualityInitialAfterBackstage",
+          "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 102
+        },
+        {
+          "name": "EndBackStageOverQuality50",
+          "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 115
+        },
         {
           "name": "EmptyItem",
           "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
-          "line": 96
+          "line": 128
         }
       ]
     }

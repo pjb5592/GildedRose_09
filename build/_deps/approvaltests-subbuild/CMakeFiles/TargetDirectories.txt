@@ -1,0 +1,3 @@
+D:/DEV/GildedRose_09/build/_deps/approvaltests-subbuild/CMakeFiles/approvaltests-populate.dir
+D:/DEV/GildedRose_09/build/_deps/approvaltests-subbuild/CMakeFiles/edit_cache.dir
+D:/DEV/GildedRose_09/build/_deps/approvaltests-subbuild/CMakeFiles/rebuild_cache.dir

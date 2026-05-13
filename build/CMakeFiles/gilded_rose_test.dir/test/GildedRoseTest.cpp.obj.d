@@ -106,11 +106,26 @@ CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.obj: \
  D:/mingw64/include/c++/15.2.0/bits/stl_vector.h \
  D:/mingw64/include/c++/15.2.0/bits/stl_bvector.h \
  D:/mingw64/include/c++/15.2.0/bits/vector.tcc \
- D:/DEV/GildedRose_09/build/_deps/googletest-src/googletest/include/gtest/gtest.h \
- D:/mingw64/include/c++/15.2.0/cstdint \
- D:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
- D:/mingw64/x86_64-w64-mingw32/include/stdint.h \
- D:/mingw64/include/c++/15.2.0/limits \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/ApprovalTests.hpp \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/ApprovalTestsVersion.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/core/Reporter.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/reporters/ReporterFactory.h \
+ D:/mingw64/include/c++/15.2.0/functional \
+ D:/mingw64/include/c++/15.2.0/bits/std_function.h \
+ D:/mingw64/include/c++/15.2.0/typeinfo \
+ D:/mingw64/include/c++/15.2.0/unordered_map \
+ D:/mingw64/include/c++/15.2.0/bits/unordered_map.h \
+ D:/mingw64/include/c++/15.2.0/bits/hashtable.h \
+ D:/mingw64/include/c++/15.2.0/bits/hashtable_policy.h \
+ D:/mingw64/include/c++/15.2.0/ext/aligned_buffer.h \
+ D:/mingw64/include/c++/15.2.0/bits/enable_special_members.h \
+ D:/mingw64/include/c++/15.2.0/bits/node_handle.h \
+ D:/mingw64/include/c++/15.2.0/bits/erase_if.h \
+ D:/mingw64/include/c++/15.2.0/array \
+ D:/mingw64/include/c++/15.2.0/compare D:/mingw64/include/c++/15.2.0/map \
+ D:/mingw64/include/c++/15.2.0/bits/stl_tree.h \
+ D:/mingw64/include/c++/15.2.0/bits/stl_map.h \
+ D:/mingw64/include/c++/15.2.0/bits/stl_multimap.h \
  D:/mingw64/include/c++/15.2.0/memory \
  D:/mingw64/include/c++/15.2.0/bits/stl_tempbuf.h \
  D:/mingw64/include/c++/15.2.0/bits/stl_raw_storage_iter.h \
@@ -118,9 +133,7 @@ CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.obj: \
  D:/mingw64/include/c++/15.2.0/bits/unique_ptr.h \
  D:/mingw64/include/c++/15.2.0/bits/shared_ptr.h \
  D:/mingw64/include/c++/15.2.0/bits/shared_ptr_base.h \
- D:/mingw64/include/c++/15.2.0/typeinfo \
  D:/mingw64/include/c++/15.2.0/bits/allocated_ptr.h \
- D:/mingw64/include/c++/15.2.0/ext/aligned_buffer.h \
  D:/mingw64/include/c++/15.2.0/ext/atomicity.h \
  D:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/gthr.h \
  D:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/gthr-default.h \
@@ -150,9 +163,22 @@ CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.obj: \
  D:/mingw64/include/c++/15.2.0/backward/auto_ptr.h \
  D:/mingw64/include/c++/15.2.0/pstl/glue_memory_defs.h \
  D:/mingw64/include/c++/15.2.0/pstl/execution_defs.h \
- D:/mingw64/include/c++/15.2.0/ostream \
- D:/mingw64/include/c++/15.2.0/bits/ostream.h \
- D:/mingw64/include/c++/15.2.0/ios \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/reporters/DiffInfo.h \
+ D:/mingw64/include/c++/15.2.0/utility \
+ D:/mingw64/include/c++/15.2.0/bits/stl_relops.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/reporters/DiffPrograms.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/reporters/ConvertForCygwin.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/launchers/CommandLauncher.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/reporters/CommandReporter.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/ApprovalsMacroDefaults.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/utilities/Macros.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/utilities/EmptyFileCreatorFactory.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/utilities/EmptyFileCreatorDisposer.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/utilities/FileUtils.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/utilities/WinMinGWUtils.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/utilities/StringMaker.h \
+ D:/mingw64/include/c++/15.2.0/sstream \
+ D:/mingw64/include/c++/15.2.0/istream D:/mingw64/include/c++/15.2.0/ios \
  D:/mingw64/include/c++/15.2.0/bits/ios_base.h \
  D:/mingw64/include/c++/15.2.0/bits/locale_classes.h \
  D:/mingw64/include/c++/15.2.0/bits/locale_classes.tcc \
@@ -170,24 +196,54 @@ CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.obj: \
  D:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
  D:/mingw64/include/c++/15.2.0/bits/locale_facets.tcc \
  D:/mingw64/include/c++/15.2.0/bits/basic_ios.tcc \
+ D:/mingw64/include/c++/15.2.0/ostream \
+ D:/mingw64/include/c++/15.2.0/bits/ostream.h \
  D:/mingw64/include/c++/15.2.0/bits/ostream.tcc \
- D:/mingw64/include/c++/15.2.0/set \
- D:/mingw64/include/c++/15.2.0/bits/stl_tree.h \
- D:/mingw64/include/c++/15.2.0/bits/node_handle.h \
- D:/mingw64/include/c++/15.2.0/bits/stl_set.h \
- D:/mingw64/include/c++/15.2.0/bits/stl_multiset.h \
- D:/mingw64/include/c++/15.2.0/bits/erase_if.h \
- D:/mingw64/include/c++/15.2.0/sstream \
- D:/mingw64/include/c++/15.2.0/istream \
  D:/mingw64/include/c++/15.2.0/bits/istream.tcc \
  D:/mingw64/include/c++/15.2.0/bits/sstream.tcc \
- D:/DEV/GildedRose_09/build/_deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h \
- D:/DEV/GildedRose_09/build/_deps/googletest-src/googletest/include/gtest/gtest-message.h \
- D:/DEV/GildedRose_09/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h \
- D:/mingw64/include/c++/15.2.0/ciso646 \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/utilities/StringUtils.h \
+ D:/mingw64/include/c++/15.2.0/algorithm \
+ D:/mingw64/include/c++/15.2.0/bits/stl_algo.h \
+ D:/mingw64/include/c++/15.2.0/bits/algorithmfwd.h \
+ D:/mingw64/include/c++/15.2.0/bits/stl_heap.h \
+ D:/mingw64/include/c++/15.2.0/bits/uniform_int_dist.h \
+ D:/mingw64/include/c++/15.2.0/pstl/glue_algorithm_defs.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/utilities/SystemUtils.h \
+ D:/mingw64/x86_64-w64-mingw32/include/io.h \
  D:/mingw64/x86_64-w64-mingw32/include/string.h \
  D:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
- D:/mingw64/include/c++/15.2.0/iostream \
+ D:/mingw64/x86_64-w64-mingw32/include/direct.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/launchers/SystemLauncher.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/reporters/GenericDiffReporter.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/reporters/QuietReporter.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/reporters/TextDiffReporter.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/utilities/Blocker.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/utilities/MachineBlocker.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/reporters/AutoApproveReporter.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/utilities/Path.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/core/ApprovalNamer.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/namers/ApprovalTestNamer.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/namers/SectionNameDisposer.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/namers/NamerFactory.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/ApprovalUtils.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/core/ApprovalComparator.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/comparators/ComparatorDisposer.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/comparators/ComparatorFactory.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/core/ApprovalWriter.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/writers/StringWriter.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/core/FileApprover.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/integrations/fmt/FmtToString.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/namers/FileNameSanitizerFactory.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/namers/FileNameSanitizerDisposer.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/namers/SubdirectoryDisposer.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/reporters/DefaultReporterFactory.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/reporters/DefaultReporterDisposer.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/reporters/FirstWorkingReporter.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/reporters/DefaultFrontLoadedReporter.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/reporters/FrontLoadedReporterFactory.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/reporters/FrontLoadedReporterDisposer.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/scrubbers/Scrubbers.h \
+ D:/mingw64/include/c++/15.2.0/regex D:/mingw64/include/c++/15.2.0/bitset \
  D:/mingw64/include/c++/15.2.0/locale \
  D:/mingw64/include/c++/15.2.0/bits/locale_facets_nonio.h \
  D:/mingw64/include/c++/15.2.0/ctime \
@@ -196,11 +252,65 @@ CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.obj: \
  D:/mingw64/include/c++/15.2.0/bits/codecvt.h \
  D:/mingw64/include/c++/15.2.0/bits/locale_facets_nonio.tcc \
  D:/mingw64/include/c++/15.2.0/bits/locale_conv.h \
+ D:/mingw64/include/c++/15.2.0/stack D:/mingw64/include/c++/15.2.0/deque \
+ D:/mingw64/include/c++/15.2.0/bits/stl_deque.h \
+ D:/mingw64/include/c++/15.2.0/bits/deque.tcc \
+ D:/mingw64/include/c++/15.2.0/bits/stl_stack.h \
+ D:/mingw64/include/c++/15.2.0/bits/regex_constants.h \
+ D:/mingw64/include/c++/15.2.0/bits/regex_error.h \
+ D:/mingw64/include/c++/15.2.0/bits/regex_automaton.h \
+ D:/mingw64/include/c++/15.2.0/bits/regex_automaton.tcc \
+ D:/mingw64/include/c++/15.2.0/bits/regex_scanner.h \
+ D:/mingw64/include/c++/15.2.0/bits/regex_scanner.tcc \
+ D:/mingw64/include/c++/15.2.0/bits/regex_compiler.h \
+ D:/mingw64/include/c++/15.2.0/bits/regex_compiler.tcc \
+ D:/mingw64/include/c++/15.2.0/bits/regex.h \
+ D:/mingw64/include/c++/15.2.0/bits/regex.tcc \
+ D:/mingw64/include/c++/15.2.0/bits/regex_executor.h \
+ D:/mingw64/include/c++/15.2.0/bits/regex_executor.tcc \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/namers/DefaultNamerFactory.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/core/Options.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/namers/ExistingFileNamer.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/writers/ExistingFile.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/namers/DefaultNamerDisposer.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/Approvals.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/namers/TemplatedCustomNamer.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/integrations/google/GoogleCustomizationsFactory.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/utilities/MoreHelpMessages.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/utilities/CartesianProduct.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/reporters/DefaultReporter.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/CombinationApprovals.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/Storyboard.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/comparators/TextFileComparator.h \
+ D:/mingw64/include/c++/15.2.0/fstream \
+ D:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/basic_file.h \
+ D:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++io.h \
+ D:/mingw64/include/c++/15.2.0/bits/fstream.tcc \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/core/ApprovalException.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/integrations/FrameworkIntegrations.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/integrations/boost_test/BoostTestApprovals.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/integrations/catch/Catch2Approvals.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/integrations/catch/Catch2v3Approvals.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/integrations/cpputest/CppUTestApprovals.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/integrations/doctest/DocTestApprovals.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/integrations/fmt/FmtApprovals.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/integrations/google/GoogleConfiguration.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/integrations/google/GoogleTestApprovals.h \
+ D:/DEV/GildedRose_09/build/_deps/googletest-src/googletest/include/gtest/gtest.h \
+ D:/mingw64/include/c++/15.2.0/cstdint \
+ D:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
+ D:/mingw64/x86_64-w64-mingw32/include/stdint.h \
+ D:/mingw64/include/c++/15.2.0/limits D:/mingw64/include/c++/15.2.0/set \
+ D:/mingw64/include/c++/15.2.0/bits/stl_set.h \
+ D:/mingw64/include/c++/15.2.0/bits/stl_multiset.h \
+ D:/DEV/GildedRose_09/build/_deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h \
+ D:/DEV/GildedRose_09/build/_deps/googletest-src/googletest/include/gtest/gtest-message.h \
+ D:/DEV/GildedRose_09/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h \
+ D:/mingw64/include/c++/15.2.0/ciso646 \
+ D:/mingw64/include/c++/15.2.0/iostream \
  D:/mingw64/x86_64-w64-mingw32/include/sys/stat.h \
- D:/mingw64/x86_64-w64-mingw32/include/io.h \
  D:/DEV/GildedRose_09/build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h \
  D:/DEV/GildedRose_09/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h \
- D:/mingw64/x86_64-w64-mingw32/include/direct.h \
  D:/mingw64/include/c++/15.2.0/condition_variable \
  D:/mingw64/include/c++/15.2.0/bits/chrono.h \
  D:/mingw64/include/c++/15.2.0/ratio \
@@ -209,30 +319,16 @@ CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.obj: \
  D:/mingw64/include/c++/15.2.0/bits/unique_lock.h \
  D:/mingw64/include/c++/15.2.0/mutex D:/mingw64/include/c++/15.2.0/any \
  D:/mingw64/include/c++/15.2.0/optional \
- D:/mingw64/include/c++/15.2.0/bits/enable_special_members.h \
  D:/mingw64/include/c++/15.2.0/variant \
  D:/mingw64/include/c++/15.2.0/bits/monostate.h \
  D:/DEV/GildedRose_09/build/_deps/googletest-src/googletest/include/gtest/gtest-death-test.h \
  D:/DEV/GildedRose_09/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h \
  D:/DEV/GildedRose_09/build/_deps/googletest-src/googletest/include/gtest/gtest-matchers.h \
  D:/mingw64/include/c++/15.2.0/atomic \
- D:/mingw64/include/c++/15.2.0/functional \
- D:/mingw64/include/c++/15.2.0/bits/std_function.h \
- D:/mingw64/include/c++/15.2.0/unordered_map \
- D:/mingw64/include/c++/15.2.0/bits/unordered_map.h \
- D:/mingw64/include/c++/15.2.0/bits/hashtable.h \
- D:/mingw64/include/c++/15.2.0/bits/hashtable_policy.h \
- D:/mingw64/include/c++/15.2.0/array \
- D:/mingw64/include/c++/15.2.0/compare \
  D:/DEV/GildedRose_09/build/_deps/googletest-src/googletest/include/gtest/gtest-printers.h \
- D:/mingw64/include/c++/15.2.0/utility \
- D:/mingw64/include/c++/15.2.0/bits/stl_relops.h \
  D:/DEV/GildedRose_09/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/float.h \
  D:/mingw64/x86_64-w64-mingw32/include/float.h \
- D:/mingw64/include/c++/15.2.0/map \
- D:/mingw64/include/c++/15.2.0/bits/stl_map.h \
- D:/mingw64/include/c++/15.2.0/bits/stl_multimap.h \
  D:/DEV/GildedRose_09/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-filepath.h \
  D:/DEV/GildedRose_09/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-string.h \
  D:/DEV/GildedRose_09/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
@@ -248,4 +344,26 @@ CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.obj: \
  D:/DEV/GildedRose_09/build/_deps/googletest-src/googletest/include/gtest/gtest-test-part.h \
  D:/DEV/GildedRose_09/build/_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h \
  D:/DEV/GildedRose_09/build/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h \
- D:/DEV/GildedRose_09/build/_deps/googletest-src/googletest/include/gtest/gtest_prod.h
+ D:/DEV/GildedRose_09/build/_deps/googletest-src/googletest/include/gtest/gtest_prod.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/integrations/ut/UTApprovals.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/namers/HelpMessages.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/namers/SeparateApprovedAndReceivedDirectoriesNamer.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/reporters/AutoApproveIfMissingReporter.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/reporters/BlockingReporter.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/reporters/CIBuildOnlyReporter.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/reporters/CIBuildOnlyReporterUtils.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/reporters/ClipboardReporter.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/reporters/CombinationReporter.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/reporters/CrossPlatformReporters.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/reporters/CustomReporter.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/reporters/DiffReporter.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/reporters/EnvironmentVariableReporter.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/reporters/LinuxReporters.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/reporters/MacReporters.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/reporters/WindowsReporters.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/utilities/DateUtils.h \
+ D:/mingw64/include/c++/15.2.0/chrono \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/utilities/EmptyFileCreatorByType.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/utilities/ExceptionCollector.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/utilities/FileUtilsSystemSpecific.h \
+ D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/utilities/Grid.h
