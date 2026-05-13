@@ -1,0 +1,13 @@
+GildedRoseTest.Foo 0 0
+GildedRoseTest.NormalItemQualityLowerLimit 3 0.0599698
+GildedRoseTest.OutOfDateNormalItemQualityDisplacement 3 0.0588826
+GildedRoseTest.FixedQualityOfSulfurasItem 3 0.0619058
+GildedRoseTest.FixedQualityOfOutOfDateSulfurasItem 3 0.0597442
+GildedRoseTest.QualityUp2WhenOutOfDateAgedBrieItem 3 0.0600719
+GildedRoseTest.QualityUpperLimit 3 0.0599371
+GildedRoseTest.QualityUpWhenBackstageAndSellinOver10 3 0.0613323
+GildedRoseTest.QualityInitialAfterBackstage 3 0.0613358
+GildedRoseTest.EndBackStageOverQuality50 3 0.0597507
+GildedRoseTest.EmptyItem 3 0.0609182
+---
+GildedRoseTest.Foo

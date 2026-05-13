@@ -47,3 +47,16 @@ ctest --test-dir build
 - unit test 내용 : 문서상에 나타난 동작들 확인
 
 ### unit test VS golden-master test 비교
+
+
+### To-Do List
+- TC-01: 일반 아이템 품질 하한
+- TC-02: 기한 지난 일반 아이템
+- TC-03: 전설 아이템은 변하지 않음
+- TC-04: 기한 마감 후에도 변하진 않음
+- TC-05: 기한 지난 Aged Brie는 품질 +2
+- TC-06: 품질 상한 테스트
+- TC-07: Backstage: 10일 초과 시 +1
+- TC-08: 공연 지난 후 품질 0
+- TC-09: 품질 50 초과 후 공연 종료
+- TC-10: 아이템이 없을 경우 처리

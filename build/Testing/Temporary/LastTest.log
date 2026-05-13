@@ -1,0 +1,350 @@
+Start testing: May 14 07:29 대한민국 표준시
+----------------------------------------------------------
+1/11 Testing: GildedRoseTest.Foo
+1/11 Test: GildedRoseTest.Foo
+Command: "D:/DEV/GildedRose_09/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.Foo" "--gtest_also_run_disabled_tests"
+Directory: D:/DEV/GildedRose_09/build
+"GildedRoseTest.Foo" start time: May 14 07:29 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from D:\DEV\GildedRose_09\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GildedRoseTest.Foo
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GildedRoseTest
+[ RUN      ] GildedRoseTest.Foo
+unknown file: Failure
+C++ exception with description "
+
+*****************************************************************************
+*                                                                           *
+* Welcome to Approval Tests.
+*
+* You have forgotten to configure your test framework for Approval Tests.
+*
+* To do this in Catch, add the following to your main.cpp:
+*
+*     #define APPROVALS_CATCH
+*     #include "ApprovalTests.hpp"
+*
+* To do this in Google Test, add the following to your main.cpp:
+*
+*     #define APPROVALS_GOOGLETEST
+*     #include "ApprovalTests.hpp"
+*
+* To do this in doctest, add the following to your main.cpp:
+*
+*     #define APPROVALS_DOCTEST
+*     #include "ApprovalTests.hpp"
+*
+* To do this in Boost.Test, add the following to your main.cpp:
+*
+*     #define APPROVALS_BOOSTTEST
+*     #include "ApprovalTests.hpp"
+*
+* To do this in CppUTest, add the following to your main.cpp:
+*
+*     #define APPROVALS_CPPUTEST
+*     #include "ApprovalTests.hpp"
+*
+* To do this in [Boost].UT, add the following to your main.cpp:
+*
+*     #define APPROVALS_UT
+*     #include "ApprovalTests.hpp"
+*
+* For more information, please visit:
+* https://github.com/approvals/ApprovalTests.cpp/blob/master/doc/TroubleshootingMisconfiguredMain.md
+*                                                                           *
+*****************************************************************************
+
+" thrown in the test body.
+
+[  FAILED  ] GildedRoseTest.Foo (0 ms)
+[----------] 1 test from GildedRoseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] GildedRoseTest.Foo
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Failed.
+"GildedRoseTest.Foo" end time: May 14 07:29 대한민국 표준시
+"GildedRoseTest.Foo" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/11 Testing: GildedRoseTest.NormalItemQualityLowerLimit
+2/11 Test: GildedRoseTest.NormalItemQualityLowerLimit
+Command: "D:/DEV/GildedRose_09/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.NormalItemQualityLowerLimit" "--gtest_also_run_disabled_tests"
+Directory: D:/DEV/GildedRose_09/build
+"GildedRoseTest.NormalItemQualityLowerLimit" start time: May 14 07:29 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from D:\DEV\GildedRose_09\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GildedRoseTest.NormalItemQualityLowerLimit
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GildedRoseTest
+[ RUN      ] GildedRoseTest.NormalItemQualityLowerLimit
+[       OK ] GildedRoseTest.NormalItemQualityLowerLimit (0 ms)
+[----------] 1 test from GildedRoseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"GildedRoseTest.NormalItemQualityLowerLimit" end time: May 14 07:29 대한민국 표준시
+"GildedRoseTest.NormalItemQualityLowerLimit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/11 Testing: GildedRoseTest.OutOfDateNormalItemQualityDisplacement
+3/11 Test: GildedRoseTest.OutOfDateNormalItemQualityDisplacement
+Command: "D:/DEV/GildedRose_09/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.OutOfDateNormalItemQualityDisplacement" "--gtest_also_run_disabled_tests"
+Directory: D:/DEV/GildedRose_09/build
+"GildedRoseTest.OutOfDateNormalItemQualityDisplacement" start time: May 14 07:29 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from D:\DEV\GildedRose_09\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GildedRoseTest.OutOfDateNormalItemQualityDisplacement
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GildedRoseTest
+[ RUN      ] GildedRoseTest.OutOfDateNormalItemQualityDisplacement
+[       OK ] GildedRoseTest.OutOfDateNormalItemQualityDisplacement (0 ms)
+[----------] 1 test from GildedRoseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"GildedRoseTest.OutOfDateNormalItemQualityDisplacement" end time: May 14 07:29 대한민국 표준시
+"GildedRoseTest.OutOfDateNormalItemQualityDisplacement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/11 Testing: GildedRoseTest.FixedQualityOfSulfurasItem
+4/11 Test: GildedRoseTest.FixedQualityOfSulfurasItem
+Command: "D:/DEV/GildedRose_09/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.FixedQualityOfSulfurasItem" "--gtest_also_run_disabled_tests"
+Directory: D:/DEV/GildedRose_09/build
+"GildedRoseTest.FixedQualityOfSulfurasItem" start time: May 14 07:29 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from D:\DEV\GildedRose_09\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GildedRoseTest.FixedQualityOfSulfurasItem
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GildedRoseTest
+[ RUN      ] GildedRoseTest.FixedQualityOfSulfurasItem
+[       OK ] GildedRoseTest.FixedQualityOfSulfurasItem (0 ms)
+[----------] 1 test from GildedRoseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"GildedRoseTest.FixedQualityOfSulfurasItem" end time: May 14 07:29 대한민국 표준시
+"GildedRoseTest.FixedQualityOfSulfurasItem" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/11 Testing: GildedRoseTest.FixedQualityOfOutOfDateSulfurasItem
+5/11 Test: GildedRoseTest.FixedQualityOfOutOfDateSulfurasItem
+Command: "D:/DEV/GildedRose_09/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.FixedQualityOfOutOfDateSulfurasItem" "--gtest_also_run_disabled_tests"
+Directory: D:/DEV/GildedRose_09/build
+"GildedRoseTest.FixedQualityOfOutOfDateSulfurasItem" start time: May 14 07:29 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from D:\DEV\GildedRose_09\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GildedRoseTest.FixedQualityOfOutOfDateSulfurasItem
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GildedRoseTest
+[ RUN      ] GildedRoseTest.FixedQualityOfOutOfDateSulfurasItem
+[       OK ] GildedRoseTest.FixedQualityOfOutOfDateSulfurasItem (0 ms)
+[----------] 1 test from GildedRoseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"GildedRoseTest.FixedQualityOfOutOfDateSulfurasItem" end time: May 14 07:29 대한민국 표준시
+"GildedRoseTest.FixedQualityOfOutOfDateSulfurasItem" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/11 Testing: GildedRoseTest.QualityUp2WhenOutOfDateAgedBrieItem
+6/11 Test: GildedRoseTest.QualityUp2WhenOutOfDateAgedBrieItem
+Command: "D:/DEV/GildedRose_09/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.QualityUp2WhenOutOfDateAgedBrieItem" "--gtest_also_run_disabled_tests"
+Directory: D:/DEV/GildedRose_09/build
+"GildedRoseTest.QualityUp2WhenOutOfDateAgedBrieItem" start time: May 14 07:29 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from D:\DEV\GildedRose_09\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GildedRoseTest.QualityUp2WhenOutOfDateAgedBrieItem
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GildedRoseTest
+[ RUN      ] GildedRoseTest.QualityUp2WhenOutOfDateAgedBrieItem
+[       OK ] GildedRoseTest.QualityUp2WhenOutOfDateAgedBrieItem (0 ms)
+[----------] 1 test from GildedRoseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"GildedRoseTest.QualityUp2WhenOutOfDateAgedBrieItem" end time: May 14 07:29 대한민국 표준시
+"GildedRoseTest.QualityUp2WhenOutOfDateAgedBrieItem" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/11 Testing: GildedRoseTest.QualityUpperLimit
+7/11 Test: GildedRoseTest.QualityUpperLimit
+Command: "D:/DEV/GildedRose_09/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.QualityUpperLimit" "--gtest_also_run_disabled_tests"
+Directory: D:/DEV/GildedRose_09/build
+"GildedRoseTest.QualityUpperLimit" start time: May 14 07:29 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from D:\DEV\GildedRose_09\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GildedRoseTest.QualityUpperLimit
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GildedRoseTest
+[ RUN      ] GildedRoseTest.QualityUpperLimit
+[       OK ] GildedRoseTest.QualityUpperLimit (0 ms)
+[----------] 1 test from GildedRoseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"GildedRoseTest.QualityUpperLimit" end time: May 14 07:29 대한민국 표준시
+"GildedRoseTest.QualityUpperLimit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/11 Testing: GildedRoseTest.QualityUpWhenBackstageAndSellinOver10
+8/11 Test: GildedRoseTest.QualityUpWhenBackstageAndSellinOver10
+Command: "D:/DEV/GildedRose_09/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.QualityUpWhenBackstageAndSellinOver10" "--gtest_also_run_disabled_tests"
+Directory: D:/DEV/GildedRose_09/build
+"GildedRoseTest.QualityUpWhenBackstageAndSellinOver10" start time: May 14 07:29 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from D:\DEV\GildedRose_09\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GildedRoseTest.QualityUpWhenBackstageAndSellinOver10
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GildedRoseTest
+[ RUN      ] GildedRoseTest.QualityUpWhenBackstageAndSellinOver10
+[       OK ] GildedRoseTest.QualityUpWhenBackstageAndSellinOver10 (0 ms)
+[----------] 1 test from GildedRoseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"GildedRoseTest.QualityUpWhenBackstageAndSellinOver10" end time: May 14 07:29 대한민국 표준시
+"GildedRoseTest.QualityUpWhenBackstageAndSellinOver10" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/11 Testing: GildedRoseTest.QualityInitialAfterBackstage
+9/11 Test: GildedRoseTest.QualityInitialAfterBackstage
+Command: "D:/DEV/GildedRose_09/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.QualityInitialAfterBackstage" "--gtest_also_run_disabled_tests"
+Directory: D:/DEV/GildedRose_09/build
+"GildedRoseTest.QualityInitialAfterBackstage" start time: May 14 07:29 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from D:\DEV\GildedRose_09\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GildedRoseTest.QualityInitialAfterBackstage
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GildedRoseTest
+[ RUN      ] GildedRoseTest.QualityInitialAfterBackstage
+[       OK ] GildedRoseTest.QualityInitialAfterBackstage (0 ms)
+[----------] 1 test from GildedRoseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"GildedRoseTest.QualityInitialAfterBackstage" end time: May 14 07:29 대한민국 표준시
+"GildedRoseTest.QualityInitialAfterBackstage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/11 Testing: GildedRoseTest.EndBackStageOverQuality50
+10/11 Test: GildedRoseTest.EndBackStageOverQuality50
+Command: "D:/DEV/GildedRose_09/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.EndBackStageOverQuality50" "--gtest_also_run_disabled_tests"
+Directory: D:/DEV/GildedRose_09/build
+"GildedRoseTest.EndBackStageOverQuality50" start time: May 14 07:29 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from D:\DEV\GildedRose_09\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GildedRoseTest.EndBackStageOverQuality50
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GildedRoseTest
+[ RUN      ] GildedRoseTest.EndBackStageOverQuality50
+[       OK ] GildedRoseTest.EndBackStageOverQuality50 (0 ms)
+[----------] 1 test from GildedRoseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"GildedRoseTest.EndBackStageOverQuality50" end time: May 14 07:29 대한민국 표준시
+"GildedRoseTest.EndBackStageOverQuality50" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/11 Testing: GildedRoseTest.EmptyItem
+11/11 Test: GildedRoseTest.EmptyItem
+Command: "D:/DEV/GildedRose_09/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.EmptyItem" "--gtest_also_run_disabled_tests"
+Directory: D:/DEV/GildedRose_09/build
+"GildedRoseTest.EmptyItem" start time: May 14 07:29 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from D:\DEV\GildedRose_09\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GildedRoseTest.EmptyItem
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GildedRoseTest
+[ RUN      ] GildedRoseTest.EmptyItem
+[       OK ] GildedRoseTest.EmptyItem (0 ms)
+[----------] 1 test from GildedRoseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"GildedRoseTest.EmptyItem" end time: May 14 07:29 대한민국 표준시
+"GildedRoseTest.EmptyItem" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 14 07:29 대한민국 표준시
