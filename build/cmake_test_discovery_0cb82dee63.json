@@ -1,10 +1,10 @@
 {
-  "tests": 2,
+  "tests": 3,
   "name": "AllTests",
   "testsuites": [
     {
       "name": "GildedRoseTest",
-      "tests": 2,
+      "tests": 3,
       "testsuite": [
         {
           "name": "Foo",
@@ -12,9 +12,14 @@
           "line": 4
         },
         {
-          "name": "CheckNormalItemQualityLowerLimit",
+          "name": "NormalItemQualityLowerLimit",
           "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
           "line": 12
+        },
+        {
+          "name": "OutOfDatedNormalItemQualityDisplacement",
+          "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 21
         }
       ]
     }

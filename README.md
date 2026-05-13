@@ -59,8 +59,3 @@ ctest --test-dir build
 - TC-07: 공연 지난 후 품질 0
 - TC-08: 품질 50 초과 후 공연 종료
 - TC-09: 아이템이 없을 경우 처리
-- TC-10: SellIn과 Quality가 매일 1씩 감소
-- TC-11: SellIn < 0 일 때 Quality 감소량이 2배
-- TC-12: Quality 최소치 0, 최대치 50 규칙을 준수
-- TC-13: Sulfuras 아이템 고정값(80) 유지
-- TC-14: Conjured 접두사를 가진 아이템의 품질이 항상 2배 속도로 떨어지는지 확인
