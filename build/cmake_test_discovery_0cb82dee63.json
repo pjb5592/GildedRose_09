@@ -7,9 +7,9 @@
       "tests": 1,
       "testsuite": [
         {
-          "name": "QualityUpperLimit",
+          "name": "QualityUpWhenBackstageAndSellinOver10",
           "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
-          "line": 57
+          "line": 66
         }
       ]
     }
