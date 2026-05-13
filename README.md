@@ -50,3 +50,12 @@ ctest --test-dir build
 
 
 ### To-Do List
+- TC-01: 일반 아이템 품질 하한(noname, 0, 0: -1, 0)
+- TC-02: 기한 지난 일반 아이템(noname, 0, 5: -1, 3)
+- TC-03: 전설 아이템은 변하지 않음(Sulfuras, 0, 5: 0, 5)
+- TC-04: 기한 마감 후에도 변하진 않음(AgedBrie, 0, 0: -1, 5)
+- TC-05: 기한 지난 Aged Brie는 품질 +2(AgedBrie, 0, 50: -1, 50)
+- TC-06: Backstage: 10일 초과 시 +1(Backstage, 15, 0: 14, 1)
+- TC-07: 공연 지난 후 품질 0(Backstage, 0, 0: -1, 0)
+- TC-08: 품질 50 초과 후 공연 종료(Backstage, 0, 51: -1, 0)
+- TC-09: 아이템이 없을 경우 처리(빈 배열: 길이 0)
