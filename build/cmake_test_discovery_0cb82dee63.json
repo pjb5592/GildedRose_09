@@ -7,9 +7,9 @@
       "tests": 1,
       "testsuite": [
         {
-          "name": "QualityInitialAfterBackstage",
+          "name": "EndBackStageOverQuality50",
           "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
-          "line": 76
+          "line": 86
         }
       ]
     }
