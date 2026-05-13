@@ -34,3 +34,12 @@ TEST(GildedRoseTest, FixedQualityOfSulfurasItem) {
   EXPECT_EQ(0, app.items[0].sellIn);
   EXPECT_EQ(5, app.items[0].quality);
 }
+
+// TC-04: 기한 마감 후에도 변하진 않음
+TEST(GildedRoseTest, FixedQualityOfOutOfDateSulfurasItem) {
+  std::vector<Item> items = {Item("Sulfuras", -1, 5)};
+  GildedRose app(items);
+  app.updateQuality();
+  EXPECT_EQ(-1, app.items[0].sellIn);
+  EXPECT_EQ(5, app.items[0].quality);
+}

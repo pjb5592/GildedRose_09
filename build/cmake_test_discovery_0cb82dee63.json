@@ -1,10 +1,10 @@
 {
-  "tests": 4,
+  "tests": 5,
   "name": "AllTests",
   "testsuites": [
     {
       "name": "GildedRoseTest",
-      "tests": 4,
+      "tests": 5,
       "testsuite": [
         {
           "name": "Foo",
@@ -25,6 +25,11 @@
           "name": "FixedQualityOfSulfurasItem",
           "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
           "line": 30
+        },
+        {
+          "name": "FixedQualityOfOutOfDateSulfurasItem",
+          "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 39
         }
       ]
     }
