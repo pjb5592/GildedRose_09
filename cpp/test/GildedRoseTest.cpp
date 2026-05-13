@@ -82,20 +82,20 @@
 //   EXPECT_EQ(0, app.items[0].quality);
 // }
 
-// TC-09: 품질 50 초과 후 공연 종료
-TEST(GildedRoseTest, EndBackStageOverQuality50) {
-  std::vector<Item> items = {
-      Item("Backstage passes to a TAFKAL80ETC concert", 0, 51)};
-  GildedRose app(items);
-  app.updateQuality();
-  EXPECT_EQ(-1, app.items[0].sellIn);
-  EXPECT_EQ(0, app.items[0].quality);
-}
-
-// // TC-10: 아이템이 없을 경우 처리
-// TEST(GildedRoseTest, EmptyItem) {
-//   std::vector<Item> items;
+// // TC-09: 품질 50 초과 후 공연 종료
+// TEST(GildedRoseTest, EndBackStageOverQuality50) {
+//   std::vector<Item> items = {
+//       Item("Backstage passes to a TAFKAL80ETC concert", 0, 51)};
 //   GildedRose app(items);
 //   app.updateQuality();
-//   EXPECT_EQ(-1, app.items.size());
+//   EXPECT_EQ(-1, app.items[0].sellIn);
+//   EXPECT_EQ(0, app.items[0].quality);
 // }
+
+// TC-10: 아이템이 없을 경우 처리
+TEST(GildedRoseTest, EmptyItem) {
+  std::vector<Item> items;
+  GildedRose app(items);
+  app.updateQuality();
+  EXPECT_EQ(0, app.items.size());
+}
