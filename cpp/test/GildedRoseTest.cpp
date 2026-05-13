@@ -62,22 +62,25 @@
 //   EXPECT_EQ(50, app.items[0].quality);
 // }
 
-// TC-07: Backstage: 10일 초과 시 +1
-TEST(GildedRoseTest, QualityUpWhenBackstageAndSellinOver10) {
+// // TC-07: Backstage: 10일 초과 시 +1
+// TEST(GildedRoseTest, QualityUpWhenBackstageAndSellinOver10) {
+//   std::vector<Item> items = {
+//       Item("Backstage passes to a TAFKAL80ETC concert", 15, 0)};
+//   GildedRose app(items);
+//   app.updateQuality();
+//   EXPECT_EQ(14, app.items[0].sellIn);
+//   EXPECT_EQ(1, app.items[0].quality);
+// }
+
+// TC-08: 공연 지난 후 품질 0
+TEST(GildedRoseTest, QualityInitialAfterBackstage) {
   std::vector<Item> items = {
-      Item("Backstage passes to a TAFKAL80ETC concert", 15, 0)};
+      Item("Backstage passes to a TAFKAL80ETC concert", 0, 0)};
   GildedRose app(items);
   app.updateQuality();
-  EXPECT_EQ(14, app.items[0].sellIn);
-  EXPECT_EQ(1, app.items[0].quality);
+  EXPECT_EQ(-1, app.items[0].sellIn);
+  EXPECT_EQ(0, app.items[0].quality);
 }
-
-// // TC-08: 공연 지난 후 품질 0
-// TEST(GildedRoseTest, QualityInitialAfterBackstage) {
-//   std::vector<Item> items = {Item("Backstage passes to a TAFKAL80ETC
-//   concert", 0, 0)}; GildedRose app(items); app.updateQuality(); EXPECT_EQ(-1,
-//   app.items[0].sellIn); EXPECT_EQ(0, app.items[0].quality);
-// }
 
 // // TC-09: 품질 50 초과 후 공연 종료
 // TEST(GildedRoseTest, EndBackStageOverQuality50) {
