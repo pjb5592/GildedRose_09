@@ -376,8 +376,11 @@ CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.obj: D:/DEV/GildedRose_0
   D:/mingw64/x86_64-w64-mingw32/include/time.h \
   D:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
   D:/mingw64/x86_64-w64-mingw32/include/wchar.h \
-  D:/mingw64/x86_64-w64-mingw32/include/wctype.h
+  D:/mingw64/x86_64-w64-mingw32/include/wctype.h \
+  D:/DEV/GildedRose_09/cpp/test/ApprovalTest.cpp
 
+
+D:/DEV/GildedRose_09/cpp/test/ApprovalTest.cpp:
 
 D:/mingw64/x86_64-w64-mingw32/include/wctype.h:
 

@@ -1,5 +1,6 @@
 D:/DEV/GildedRose_09/build/CMakeFiles/gilded_rose.dir
 D:/DEV/GildedRose_09/build/CMakeFiles/gilded_rose_test.dir
+D:/DEV/GildedRose_09/build/CMakeFiles/gilded_rose_approval_test.dir
 D:/DEV/GildedRose_09/build/CMakeFiles/test.dir
 D:/DEV/GildedRose_09/build/CMakeFiles/edit_cache.dir
 D:/DEV/GildedRose_09/build/CMakeFiles/rebuild_cache.dir

@@ -197,6 +197,19 @@ gilded_rose_test/fast:
 .PHONY : gilded_rose_test/fast
 
 #=============================================================================
+# Target rules for targets named gilded_rose_approval_test
+
+# Build rule for target.
+gilded_rose_approval_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gilded_rose_approval_test
+.PHONY : gilded_rose_approval_test
+
+# fast build rule for target.
+gilded_rose_approval_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gilded_rose_approval_test.dir\build.make CMakeFiles/gilded_rose_approval_test.dir/build
+.PHONY : gilded_rose_approval_test/fast
+
+#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -285,6 +298,30 @@ src/GildedRose.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gilded_rose.dir\build.make CMakeFiles/gilded_rose.dir/src/GildedRose.cpp.s
 .PHONY : src/GildedRose.cpp.s
 
+test/ApprovalTest.obj: test/ApprovalTest.cpp.obj
+.PHONY : test/ApprovalTest.obj
+
+# target to build an object file
+test/ApprovalTest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gilded_rose_approval_test.dir\build.make CMakeFiles/gilded_rose_approval_test.dir/test/ApprovalTest.cpp.obj
+.PHONY : test/ApprovalTest.cpp.obj
+
+test/ApprovalTest.i: test/ApprovalTest.cpp.i
+.PHONY : test/ApprovalTest.i
+
+# target to preprocess a source file
+test/ApprovalTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gilded_rose_approval_test.dir\build.make CMakeFiles/gilded_rose_approval_test.dir/test/ApprovalTest.cpp.i
+.PHONY : test/ApprovalTest.cpp.i
+
+test/ApprovalTest.s: test/ApprovalTest.cpp.s
+.PHONY : test/ApprovalTest.s
+
+# target to generate assembly for a file
+test/ApprovalTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gilded_rose_approval_test.dir\build.make CMakeFiles/gilded_rose_approval_test.dir/test/ApprovalTest.cpp.s
+.PHONY : test/ApprovalTest.cpp.s
+
 test/GildedRoseTest.obj: test/GildedRoseTest.cpp.obj
 .PHONY : test/GildedRoseTest.obj
 
@@ -324,6 +361,7 @@ help:
 	@echo ... test
 	@echo ... ApprovalTests
 	@echo ... gilded_rose
+	@echo ... gilded_rose_approval_test
 	@echo ... gilded_rose_test
 	@echo ... gmock
 	@echo ... gmock_main
@@ -332,6 +370,9 @@ help:
 	@echo ... src/GildedRose.obj
 	@echo ... src/GildedRose.i
 	@echo ... src/GildedRose.s
+	@echo ... test/ApprovalTest.obj
+	@echo ... test/ApprovalTest.i
+	@echo ... test/ApprovalTest.s
 	@echo ... test/GildedRoseTest.obj
 	@echo ... test/GildedRoseTest.i
 	@echo ... test/GildedRoseTest.s

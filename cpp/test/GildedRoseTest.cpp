@@ -1,5 +1,6 @@
 #define APPROVALS_GOOGLETEST
 #include "GildedRose.h"
+#include "ApprovalTest.cpp"
 #include "ApprovalTests.hpp"
 #include <gtest/gtest.h>
 

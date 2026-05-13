@@ -1,7 +1,18 @@
 {
-  "tests": 11,
+  "tests": 12,
   "name": "AllTests",
   "testsuites": [
+    {
+      "name": "ApprovalTest",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "PrintTextFixture",
+          "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\ApprovalTest.cpp",
+          "line": 65
+        }
+      ]
+    },
     {
       "name": "GildedRoseTest",
       "tests": 11,
@@ -9,57 +20,57 @@
         {
           "name": "Foo",
           "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
-          "line": 6
+          "line": 7
         },
         {
           "name": "NormalItemQualityLowerLimit",
           "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
-          "line": 17
+          "line": 18
         },
         {
           "name": "OutOfDateNormalItemQualityDisplacement",
           "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
-          "line": 29
+          "line": 30
         },
         {
           "name": "FixedQualityOfSulfurasItem",
           "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
-          "line": 41
+          "line": 42
         },
         {
           "name": "FixedQualityOfOutOfDateSulfurasItem",
           "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
-          "line": 53
+          "line": 54
         },
         {
           "name": "QualityUp2WhenOutOfDateAgedBrieItem",
           "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
-          "line": 65
+          "line": 66
         },
         {
           "name": "QualityUpperLimit",
           "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
-          "line": 77
+          "line": 78
         },
         {
           "name": "QualityUpWhenBackstageAndSellinOver10",
           "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
-          "line": 89
+          "line": 90
         },
         {
           "name": "QualityInitialAfterBackstage",
           "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
-          "line": 102
+          "line": 103
         },
         {
           "name": "EndBackStageOverQuality50",
           "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
-          "line": 115
+          "line": 116
         },
         {
           "name": "EmptyItem",
           "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
-          "line": 128
+          "line": 129
         }
       ]
     }

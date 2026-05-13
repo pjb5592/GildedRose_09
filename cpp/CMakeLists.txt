@@ -25,7 +25,7 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(ApprovalTests)
 
 # Library
-add_library(gilded_rose src/GildedRose.cpp)
+add_library(gilded_rose src/GildedRose.cpp )
 target_include_directories(gilded_rose PUBLIC include)
 
 # Tests
@@ -34,6 +34,14 @@ add_executable(gilded_rose_test test/GildedRoseTest.cpp)
 # target_link_libraries(gilded_rose_test gilded_rose GTest::gtest_main)
 
 target_link_libraries(gilded_rose_test
+    gilded_rose
+    GTest::gtest_main
+    ApprovalTests::ApprovalTests
+)
+
+add_executable(gilded_rose_approval_test test/ApprovalTest.cpp)
+
+target_link_libraries(gilded_rose_approval_test
     gilded_rose
     GTest::gtest_main
     ApprovalTests::ApprovalTests
