@@ -6,7 +6,6 @@ public:
   using GildedRoseItem::GildedRoseItem;
 
   void updateQuality() override {
-    static constexpr int MAX = 50;
     if (item_.quality < MAX) {
       item_.quality++;
     }

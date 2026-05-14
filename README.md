@@ -70,6 +70,6 @@ ctest --test-dir build
 - 추가 기능
   - Food&Beverage: NormalItem의 2배 Quality 감소. 기한 지나면 추가 2배(총 4배)
     - Test Case:
-      1. "[F&B] Bread", 5, 20 → 4, 18
-      2. "[F&B] Milk", 0, 20 →  16
-      3. "[F&B] Water", 0, 1 → 0
+      - TC-11. "[F&B] Bread", 5, 20 → 4, 18
+      - TC-12. "[F&B] Milk", 0, 20 →  16
+      - TC-13. "[F&B] Water", 0, 1 → 0

@@ -7,7 +7,6 @@
 #include "item.h"
 #include <memory>
 
-
 GildedRose::GildedRose(std::vector<Item> &items) : items(items) {}
 
 std::unique_ptr<GildedRoseItem> GildedRose::createItem(Item &item) {
