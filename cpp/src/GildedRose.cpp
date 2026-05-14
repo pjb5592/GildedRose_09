@@ -13,13 +13,13 @@ GildedRose::GildedRose(std::vector<Item> &items) : items(items) {}
 std::unique_ptr<GildedRoseItem> GildedRose::createItem(Item &item) {
   std::unique_ptr<GildedRoseItem> gi;
 
-  if (item.getName() == SULFURAS) {
+  if (item.getName().find(SULFURAS) != std::string::npos) {
     gi = std::make_unique<SulfurasItem>(item);
-  } else if (item.getName() == AGED_BRIE) {
+  } else if (item.getName().find(AGED_BRIE) != std::string::npos) {
     gi = std::make_unique<AgedBrieItem>(item);
-  } else if (item.getName() == BACKSTAGE_PASS) {
+  } else if (item.getName().find(BACKSTAGE_PASS) != std::string::npos) {
     gi = std::make_unique<BackStagePassItem>(item);
-  } else if (item.getName().find("[F&B]") != std::string::npos) {
+  } else if (item.getName().find(FOODBEVERAGE) != std::string::npos) {
     gi = std::make_unique<FoodBeverageItem>(item);
   } else {
     gi = std::make_unique<NormalItem>(item);

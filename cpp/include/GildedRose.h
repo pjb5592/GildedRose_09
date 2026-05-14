@@ -15,6 +15,7 @@ private:
   static constexpr const char *BACKSTAGE_PASS =
       "Backstage passes to a TAFKAL80ETC concert";
   static constexpr const char *SULFURAS = "Sulfuras, Hand of Ragnaros";
+  static constexpr const char *FOODBEVERAGE = "[F&B]";
   static constexpr int MAX_QUALITY = 50;
   static constexpr int MIN_QUALITY = 0;
 
@@ -25,4 +26,6 @@ public:
   GildedRose(std::vector<Item> &items);
   void updateQuality();
   void updateSellIn(Item &item);
+
+  std::string aa = "aaaaaaaa";
 };
