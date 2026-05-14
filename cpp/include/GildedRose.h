@@ -19,6 +19,6 @@ public:
   void updateSellIn(Item &item);
   void updateNormalItem(Item &item);
   void updateBackStagePass(Item &item);
-  void updateAgedBrie(Item &item);
   void updateSulfuras(Item &item);
+  void updateAgedBrie(Item &item);
 };
