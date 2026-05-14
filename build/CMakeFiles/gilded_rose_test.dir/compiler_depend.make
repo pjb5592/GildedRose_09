@@ -118,6 +118,7 @@ CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.obj: D:/DEV/GildedRose_0
   _deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
   D:/DEV/GildedRose_09/cpp/include/AgedBrieItem.hpp \
   D:/DEV/GildedRose_09/cpp/include/BackStagePassItem.hpp \
+  D:/DEV/GildedRose_09/cpp/include/FoodBeverageItem.hpp \
   D:/DEV/GildedRose_09/cpp/include/GildedRose.h \
   D:/DEV/GildedRose_09/cpp/include/GildedRoseItem.hpp \
   D:/DEV/GildedRose_09/cpp/include/Item.h \
@@ -531,6 +532,8 @@ D:/mingw64/include/c++/15.2.0/cwchar:
 
 D:/mingw64/include/c++/15.2.0/ctime:
 
+D:/mingw64/include/c++/15.2.0/cstdlib:
+
 D:/mingw64/include/c++/15.2.0/array:
 
 D:/mingw64/include/c++/15.2.0/bits/stl_iterator_base_funcs.h:
@@ -604,8 +607,6 @@ _deps/approvaltests-src/ApprovalTests/utilities/EmptyFileCreatorFactory.h:
 _deps/approvaltests-src/ApprovalTests/writers/ExistingFile.h:
 
 _deps/approvaltests-src/ApprovalTests/namers/ApprovalTestNamer.h:
-
-D:/mingw64/include/c++/15.2.0/cstdlib:
 
 _deps/approvaltests-src/ApprovalTests/utilities/EmptyFileCreatorDisposer.h:
 
@@ -769,6 +770,8 @@ D:/mingw64/include/c++/15.2.0/bits/cxxabi_init_exception.h:
 
 _deps/approvaltests-src/ApprovalTests/CombinationApprovals.h:
 
+D:/DEV/GildedRose_09/cpp/include/FoodBeverageItem.hpp:
+
 _deps/approvaltests-src/ApprovalTests/core/ApprovalWriter.h:
 
 _deps/approvaltests-src/ApprovalTests/ApprovalTests.hpp:
@@ -879,9 +882,9 @@ _deps/approvaltests-src/ApprovalTests/utilities/Blocker.h:
 
 _deps/approvaltests-src/ApprovalTests/reporters/DefaultFrontLoadedReporter.h:
 
-D:/mingw64/include/c++/15.2.0/backward/auto_ptr.h:
-
 _deps/approvaltests-src/ApprovalTests/namers/NamerFactory.h:
+
+D:/mingw64/include/c++/15.2.0/backward/auto_ptr.h:
 
 D:/mingw64/include/c++/15.2.0/backward/binders.h:
 

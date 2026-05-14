@@ -130,8 +130,3 @@ TEST(FoodBeverageTest, QualityNeverBelowZero) {
   app.updateQuality();
   EXPECT_EQ(0, items[0].quality); // 0 유지
 }
-
-- TC -
-    11. "[F&B] Bread",
-    5, 20 → 4, 18 - TC - 12. "[F&B] Milk", 0, 20 → 16 - TC - 13. "[F&B] Water",
-    0, 1 → 0

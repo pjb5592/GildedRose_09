@@ -1,6 +1,7 @@
 #include "GildedRose.h"
 #include "AgedBrieItem.hpp"
 #include "BackStagePassItem.hpp"
+#include "FoodBeverageItem.hpp"
 #include "GildedRoseItem.hpp"
 #include "NormalItem.hpp"
 #include "SulfurasItem.hpp"
@@ -16,6 +17,8 @@ std::unique_ptr<GildedRoseItem> GildedRose::createItem(Item &item) {
     return std::make_unique<AgedBrieItem>(item);
   } else if (item.name == BACKSTAGE_PASS) {
     return std::make_unique<BackStagePassItem>(item);
+  } else if (item.name.substr(0, 5) == FOODANDBEVERAGE) {
+    return std::make_unique<FoodBeverageItem>(item);
   } else {
     return std::make_unique<NormalItem>(item);
   }

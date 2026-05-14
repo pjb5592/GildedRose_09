@@ -25,6 +25,7 @@ CMakeFiles/gilded_rose_approval_test.dir/test/ApprovalTest.cpp.obj: D:/DEV/Gilde
   _deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
   D:/DEV/GildedRose_09/cpp/include/AgedBrieItem.hpp \
   D:/DEV/GildedRose_09/cpp/include/BackStagePassItem.hpp \
+  D:/DEV/GildedRose_09/cpp/include/FoodBeverageItem.hpp \
   D:/DEV/GildedRose_09/cpp/include/GildedRose.h \
   D:/DEV/GildedRose_09/cpp/include/GildedRoseItem.hpp \
   D:/DEV/GildedRose_09/cpp/include/Item.h \
@@ -263,6 +264,8 @@ CMakeFiles/gilded_rose_approval_test.dir/test/ApprovalTest.cpp.obj: D:/DEV/Gilde
 
 D:/mingw64/x86_64-w64-mingw32/include/wctype.h:
 
+D:/mingw64/x86_64-w64-mingw32/include/wchar.h:
+
 D:/mingw64/include/c++/15.2.0/bits/uses_allocator.h:
 
 D:/mingw64/include/c++/15.2.0/bits/stl_algobase.h:
@@ -304,12 +307,6 @@ D:/mingw64/x86_64-w64-mingw32/include/_mingw.h:
 D:/mingw64/include/c++/15.2.0/bits/basic_ios.h:
 
 D:/mingw64/include/c++/15.2.0/ext/type_traits.h:
-
-D:/mingw64/include/c++/15.2.0/bits/stl_set.h:
-
-D:/mingw64/include/c++/15.2.0/map:
-
-D:/mingw64/x86_64-w64-mingw32/include/string.h:
 
 D:/mingw64/include/c++/15.2.0/bits/align.h:
 
@@ -371,12 +368,6 @@ D:/mingw64/include/c++/15.2.0/bits/ostream.h:
 
 D:/mingw64/include/c++/15.2.0/bits/functional_hash.h:
 
-_deps/googletest-src/googletest/include/gtest/gtest-printers.h:
-
-D:/mingw64/include/c++/15.2.0/bits/stl_bvector.h:
-
-D:/DEV/GildedRose_09/cpp/include/SulfurasItem.hpp:
-
 D:/DEV/GildedRose_09/cpp/include/GildedRose.h:
 
 D:/mingw64/include/c++/15.2.0/bits/stream_iterator.h:
@@ -401,6 +392,26 @@ D:/mingw64/include/c++/15.2.0/bits/locale_conv.h:
 
 D:/mingw64/include/c++/15.2.0/cwctype:
 
+D:/mingw64/include/c++/15.2.0/bits/stl_set.h:
+
+D:/mingw64/include/c++/15.2.0/map:
+
+D:/mingw64/x86_64-w64-mingw32/include/string.h:
+
+D:/DEV/GildedRose_09/cpp/include/FoodBeverageItem.hpp:
+
+D:/mingw64/include/c++/15.2.0/bits/shared_ptr_base.h:
+
+D:/DEV/GildedRose_09/cpp/test/ApprovalTest.cpp:
+
+_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h:
+
+D:/mingw64/include/c++/15.2.0/bits/functexcept.h:
+
+D:/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h:
+
+_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h:
+
 D:/mingw64/include/c++/15.2.0/bits/std_abs.h:
 
 D:/mingw64/include/c++/15.2.0/bits/exception.h:
@@ -411,13 +422,7 @@ D:/mingw64/include/c++/15.2.0/bits/locale_facets_nonio.h:
 
 D:/mingw64/include/c++/15.2.0/bits/cxxabi_init_exception.h:
 
-D:/DEV/GildedRose_09/cpp/test/ApprovalTest.cpp:
-
-_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h:
-
-D:/mingw64/include/c++/15.2.0/bits/shared_ptr_base.h:
-
-D:/mingw64/include/c++/15.2.0/bits/utility.h:
+_deps/googletest-src/googletest/include/gtest/gtest-printers.h:
 
 _deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h:
 
@@ -505,6 +510,10 @@ D:/mingw64/include/c++/15.2.0/any:
 
 D:/mingw64/include/c++/15.2.0/bits/cpp_type_traits.h:
 
+D:/mingw64/include/c++/15.2.0/bits/stl_bvector.h:
+
+D:/DEV/GildedRose_09/cpp/include/SulfurasItem.hpp:
+
 _deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h:
 
 _deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h:
@@ -528,12 +537,6 @@ D:/mingw64/x86_64-w64-mingw32/include/io.h:
 D:/mingw64/include/c++/15.2.0/bits/chrono.h:
 
 D:/mingw64/include/c++/15.2.0/bits/ostream.tcc:
-
-_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h:
-
-D:/mingw64/include/c++/15.2.0/bits/functexcept.h:
-
-D:/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h:
 
 _deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h:
 
@@ -562,6 +565,8 @@ D:/mingw64/include/c++/15.2.0/backward/binders.h:
 D:/mingw64/include/c++/15.2.0/backward/auto_ptr.h:
 
 D:/mingw64/include/c++/15.2.0/ext/string_conversions.h:
+
+D:/mingw64/include/c++/15.2.0/bits/utility.h:
 
 D:/mingw64/include/c++/15.2.0/bits/vector.tcc:
 
@@ -670,8 +675,6 @@ D:/mingw64/include/c++/15.2.0/condition_variable:
 D:/mingw64/x86_64-w64-mingw32/include/swprintf.inl:
 
 D:/mingw64/include/c++/15.2.0/streambuf:
-
-D:/mingw64/x86_64-w64-mingw32/include/wchar.h:
 
 D:/mingw64/include/c++/15.2.0/string:
 

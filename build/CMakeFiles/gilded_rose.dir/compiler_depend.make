@@ -4,6 +4,7 @@
 CMakeFiles/gilded_rose.dir/src/GildedRose.cpp.obj: D:/DEV/GildedRose_09/cpp/src/GildedRose.cpp \
   D:/DEV/GildedRose_09/cpp/include/AgedBrieItem.hpp \
   D:/DEV/GildedRose_09/cpp/include/BackStagePassItem.hpp \
+  D:/DEV/GildedRose_09/cpp/include/FoodBeverageItem.hpp \
   D:/DEV/GildedRose_09/cpp/include/GildedRose.h \
   D:/DEV/GildedRose_09/cpp/include/GildedRoseItem.hpp \
   D:/DEV/GildedRose_09/cpp/include/Item.h \
@@ -182,8 +183,6 @@ D:/mingw64/x86_64-w64-mingw32/include/malloc.h:
 
 D:/mingw64/x86_64-w64-mingw32/include/limits.h:
 
-D:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/atomic_word.h:
-
 D:/mingw64/include/c++/15.2.0/bits/stl_iterator_base_types.h:
 
 D:/mingw64/include/c++/15.2.0/bits/stl_function.h:
@@ -201,8 +200,6 @@ D:/mingw64/include/c++/15.2.0/ext/atomicity.h:
 D:/mingw64/include/c++/15.2.0/bits/shared_ptr_base.h:
 
 D:/mingw64/include/c++/15.2.0/bits/shared_ptr_atomic.h:
-
-D:/mingw64/include/c++/15.2.0/vector:
 
 D:/mingw64/include/c++/15.2.0/bits/stl_pair.h:
 
@@ -226,16 +223,6 @@ D:/mingw64/include/c++/15.2.0/bits/move.h:
 
 D:/mingw64/include/c++/15.2.0/bits/memoryfwd.h:
 
-D:/mingw64/include/c++/15.2.0/bits/invoke.h:
-
-D:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
-
-D:/mingw64/include/c++/15.2.0/bits/concept_check.h:
-
-D:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h:
-
-D:/mingw64/include/c++/15.2.0/bits/alloc_traits.h:
-
 D:/mingw64/include/c++/15.2.0/bits/stl_raw_storage_iter.h:
 
 D:/mingw64/include/c++/15.2.0/bits/align.h:
@@ -249,18 +236,6 @@ D:/mingw64/include/c++/15.2.0/type_traits:
 D:/mingw64/include/c++/15.2.0/bits/functexcept.h:
 
 D:/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h:
-
-D:/mingw64/include/c++/15.2.0/bits/localefwd.h:
-
-D:/mingw64/include/c++/15.2.0/cwchar:
-
-D:/DEV/GildedRose_09/cpp/include/Item.h:
-
-D:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h:
-
-D:/mingw64/x86_64-w64-mingw32/include/signal.h:
-
-D:/mingw64/include/c++/15.2.0/backward/binders.h:
 
 D:/mingw64/include/c++/15.2.0/bits/hash_bytes.h:
 
@@ -276,13 +251,29 @@ D:/mingw64/include/c++/15.2.0/bits/stl_iterator_base_funcs.h:
 
 D:/DEV/GildedRose_09/cpp/include/GildedRoseItem.hpp:
 
+D:/DEV/GildedRose_09/cpp/include/GildedRose.h:
+
+D:/mingw64/x86_64-w64-mingw32/include/swprintf.inl:
+
+D:/mingw64/include/c++/15.2.0/stdlib.h:
+
+D:/mingw64/include/c++/15.2.0/bits/localefwd.h:
+
+D:/mingw64/include/c++/15.2.0/cwchar:
+
+D:/DEV/GildedRose_09/cpp/include/Item.h:
+
+D:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h:
+
+D:/mingw64/x86_64-w64-mingw32/include/signal.h:
+
+D:/mingw64/include/c++/15.2.0/backward/binders.h:
+
 D:/mingw64/include/c++/15.2.0/bits/memory_resource.h:
 
 D:/mingw64/include/c++/15.2.0/bits/cpp_type_traits.h:
 
 D:/mingw64/include/c++/15.2.0/bits/cxxabi_forced.h:
-
-D:/mingw64/include/c++/15.2.0/bits/exception_ptr.h:
 
 D:/mingw64/include/c++/15.2.0/bits/allocated_ptr.h:
 
@@ -290,11 +281,15 @@ D:/mingw64/include/c++/15.2.0/bits/atomic_base.h:
 
 D:/mingw64/include/c++/15.2.0/bits/utility.h:
 
-D:/DEV/GildedRose_09/cpp/include/GildedRose.h:
+D:/mingw64/include/c++/15.2.0/bits/exception_ptr.h:
 
-D:/mingw64/x86_64-w64-mingw32/include/swprintf.inl:
+D:/mingw64/include/c++/15.2.0/vector:
 
-D:/mingw64/include/c++/15.2.0/stdlib.h:
+D:/DEV/GildedRose_09/cpp/include/FoodBeverageItem.hpp:
+
+D:/mingw64/x86_64-w64-mingw32/include/sys/timeb.h:
+
+D:/mingw64/x86_64-w64-mingw32/include/corecrt_wconio.h:
 
 D:/mingw64/x86_64-w64-mingw32/include/sched.h:
 
@@ -313,6 +308,16 @@ D:/mingw64/include/c++/15.2.0/bits/ostream_insert.h:
 D:/mingw64/x86_64-w64-mingw32/include/vadefs.h:
 
 D:/DEV/GildedRose_09/cpp/src/GildedRose.cpp:
+
+D:/mingw64/include/c++/15.2.0/bits/invoke.h:
+
+D:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
+
+D:/mingw64/include/c++/15.2.0/bits/concept_check.h:
+
+D:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h:
+
+D:/mingw64/include/c++/15.2.0/bits/alloc_traits.h:
 
 D:/mingw64/include/c++/15.2.0/bits/basic_string.tcc:
 
@@ -343,6 +348,8 @@ D:/mingw64/include/c++/15.2.0/bits/charconv.h:
 D:/mingw64/include/c++/15.2.0/bits/cxxabi_init_exception.h:
 
 D:/mingw64/x86_64-w64-mingw32/include/crtdefs.h:
+
+D:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/atomic_word.h:
 
 D:/mingw64/include/c++/15.2.0/bits/string_view.tcc:
 
@@ -376,9 +383,13 @@ D:/mingw64/include/c++/15.2.0/cstdio:
 
 D:/mingw64/include/c++/15.2.0/debug/assertions.h:
 
-D:/mingw64/include/c++/15.2.0/backward/auto_ptr.h:
+D:/mingw64/x86_64-w64-mingw32/include/ctype.h:
+
+D:/mingw64/include/c++/15.2.0/debug/debug.h:
 
 D:/mingw64/include/c++/15.2.0/ext/string_conversions.h:
+
+D:/mingw64/include/c++/15.2.0/backward/auto_ptr.h:
 
 D:/mingw64/include/c++/15.2.0/ext/aligned_buffer.h:
 
@@ -434,9 +445,9 @@ D:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h:
 
 D:/mingw64/x86_64-w64-mingw32/include/pthread_signal.h:
 
-D:/mingw64/include/c++/15.2.0/bits/uses_allocator_args.h:
-
 D:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h:
+
+D:/mingw64/include/c++/15.2.0/bits/uses_allocator_args.h:
 
 D:/mingw64/x86_64-w64-mingw32/include/_mingw.h:
 
@@ -450,14 +461,6 @@ D:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h:
 
 D:/mingw64/x86_64-w64-mingw32/include/_timeval.h:
 
-D:/mingw64/x86_64-w64-mingw32/include/sys/timeb.h:
-
-D:/mingw64/x86_64-w64-mingw32/include/corecrt_wconio.h:
-
 D:/mingw64/x86_64-w64-mingw32/include/corecrt_wctype.h:
 
 D:/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h:
-
-D:/mingw64/include/c++/15.2.0/debug/debug.h:
-
-D:/mingw64/x86_64-w64-mingw32/include/ctype.h:

@@ -1,5 +1,5 @@
 {
-  "tests": 12,
+  "tests": 15,
   "name": "AllTests",
   "testsuites": [
     {
@@ -25,52 +25,73 @@
         {
           "name": "NormalItemQualityLowerLimit",
           "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
-          "line": 18
+          "line": 16
         },
         {
           "name": "OutOfDateNormalItemQualityDisplacement",
           "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
-          "line": 30
+          "line": 25
         },
         {
           "name": "FixedQualityOfSulfurasItem",
           "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
-          "line": 42
+          "line": 34
         },
         {
           "name": "FixedQualityOfOutOfDateSulfurasItem",
           "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
-          "line": 54
+          "line": 43
         },
         {
           "name": "QualityUp2WhenOutOfDateAgedBrieItem",
           "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
-          "line": 66
+          "line": 52
         },
         {
           "name": "QualityUpperLimit",
           "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
-          "line": 78
+          "line": 61
         },
         {
           "name": "QualityUpWhenBackstageAndSellinOver10",
           "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
-          "line": 90
+          "line": 70
         },
         {
           "name": "QualityInitialAfterBackstage",
           "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
-          "line": 103
+          "line": 80
         },
         {
           "name": "EndBackStageOverQuality50",
           "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
-          "line": 116
+          "line": 90
         },
         {
           "name": "EmptyItem",
           "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
-          "line": 129
+          "line": 100
+        }
+      ]
+    },
+    {
+      "name": "FoodBeverageTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "DegradesTwiceAsNormal",
+          "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 110
+        },
+        {
+          "name": "DegradesFourTimesAfterSellIn",
+          "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 119
+        },
+        {
+          "name": "QualityNeverBelowZero",
+          "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 127
         }
       ]
     }

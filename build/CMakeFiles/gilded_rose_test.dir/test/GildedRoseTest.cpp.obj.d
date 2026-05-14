@@ -105,6 +105,7 @@ CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.obj: \
  D:/mingw64/include/c++/15.2.0/bits/uses_allocator_args.h \
  D:/mingw64/include/c++/15.2.0/tuple \
  D:/DEV/GildedRose_09/cpp/include/BackStagePassItem.hpp \
+ D:/DEV/GildedRose_09/cpp/include/FoodBeverageItem.hpp \
  D:/DEV/GildedRose_09/cpp/include/NormalItem.hpp \
  D:/DEV/GildedRose_09/cpp/include/SulfurasItem.hpp \
  D:/mingw64/include/c++/15.2.0/memory \
