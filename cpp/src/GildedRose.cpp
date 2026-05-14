@@ -13,13 +13,13 @@ GildedRose::GildedRose(std::vector<Item> &items) : items(items) {}
 std::unique_ptr<GildedRoseItem> GildedRose::createItem(Item &item) {
   std::unique_ptr<GildedRoseItem> gi;
 
-  if (item.name == SULFURAS) {
+  if (item.getName() == SULFURAS) {
     gi = std::make_unique<SulfurasItem>(item);
-  } else if (item.name == AGED_BRIE) {
+  } else if (item.getName() == AGED_BRIE) {
     gi = std::make_unique<AgedBrieItem>(item);
-  } else if (item.name == BACKSTAGE_PASS) {
+  } else if (item.getName() == BACKSTAGE_PASS) {
     gi = std::make_unique<BackStagePassItem>(item);
-  } else if (item.name.find("[F&B]") != std::string::npos) {
+  } else if (item.getName().find("[F&B]") != std::string::npos) {
     gi = std::make_unique<FoodBeverageItem>(item);
   } else {
     gi = std::make_unique<NormalItem>(item);
@@ -35,7 +35,7 @@ void GildedRose::updateQuality() {
 }
 
 void GildedRose::updateSellIn(Item &item) {
-  if (item.name != SULFURAS) {
-    item.sellIn = item.sellIn - 1;
+  if (item.getName() != SULFURAS) {
+    item.decreaseSellIn();
   }
 }

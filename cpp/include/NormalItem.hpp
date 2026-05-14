@@ -6,11 +6,11 @@ public:
   using GildedRoseItem::GildedRoseItem;
 
   void updateQuality() override {
-    if (item_.quality > MIN) {
-      item_.quality--;
+    if (item_.getQuality() > MIN) {
+      item_.downGrade();
     }
-    if (item_.sellIn < 1 && item_.quality > MIN) {
-      item_.quality--;
+    if (item_.getSellIn() < 1 && item_.getQuality() > MIN) {
+      item_.downGrade();
     }
   }
 };
