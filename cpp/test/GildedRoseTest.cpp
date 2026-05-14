@@ -40,7 +40,7 @@ TEST(GildedRoseTest, OutOfDateNormalItemQualityDisplacement) {
 
 // TC-03: 전설 아이템은 변하지 않음
 TEST(GildedRoseTest, FixedQualityOfSulfurasItem) {
-  std::vector<Item> items = {Item("Sulfuras", 0, 5)};
+  std::vector<Item> items = {Item("Sulfuras, Hand of Ragnaros", 0, 5)};
   GildedRose app(items);
   app.updateQuality();
 
@@ -52,7 +52,7 @@ TEST(GildedRoseTest, FixedQualityOfSulfurasItem) {
 
 // TC-04: 기한 마감 후에도 변하진 않음
 TEST(GildedRoseTest, FixedQualityOfOutOfDateSulfurasItem) {
-  std::vector<Item> items = {Item("Sulfuras", -1, 5)};
+  std::vector<Item> items = {Item("Sulfuras, Hand of Ragnaros", -1, 5)};
   GildedRose app(items);
   app.updateQuality();
 
