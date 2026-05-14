@@ -210,6 +210,19 @@ gilded_rose_approval_test/fast:
 .PHONY : gilded_rose_approval_test/fast
 
 #=============================================================================
+# Target rules for targets named FoodBeverageTest
+
+# Build rule for target.
+FoodBeverageTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FoodBeverageTest
+.PHONY : FoodBeverageTest
+
+# fast build rule for target.
+FoodBeverageTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FoodBeverageTest.dir\build.make CMakeFiles/FoodBeverageTest.dir/build
+.PHONY : FoodBeverageTest/fast
+
+#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -322,6 +335,30 @@ test/ApprovalTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gilded_rose_approval_test.dir\build.make CMakeFiles/gilded_rose_approval_test.dir/test/ApprovalTest.cpp.s
 .PHONY : test/ApprovalTest.cpp.s
 
+test/FoodBeverageTest.obj: test/FoodBeverageTest.cpp.obj
+.PHONY : test/FoodBeverageTest.obj
+
+# target to build an object file
+test/FoodBeverageTest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FoodBeverageTest.dir\build.make CMakeFiles/FoodBeverageTest.dir/test/FoodBeverageTest.cpp.obj
+.PHONY : test/FoodBeverageTest.cpp.obj
+
+test/FoodBeverageTest.i: test/FoodBeverageTest.cpp.i
+.PHONY : test/FoodBeverageTest.i
+
+# target to preprocess a source file
+test/FoodBeverageTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FoodBeverageTest.dir\build.make CMakeFiles/FoodBeverageTest.dir/test/FoodBeverageTest.cpp.i
+.PHONY : test/FoodBeverageTest.cpp.i
+
+test/FoodBeverageTest.s: test/FoodBeverageTest.cpp.s
+.PHONY : test/FoodBeverageTest.s
+
+# target to generate assembly for a file
+test/FoodBeverageTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FoodBeverageTest.dir\build.make CMakeFiles/FoodBeverageTest.dir/test/FoodBeverageTest.cpp.s
+.PHONY : test/FoodBeverageTest.cpp.s
+
 test/GildedRoseTest.obj: test/GildedRoseTest.cpp.obj
 .PHONY : test/GildedRoseTest.obj
 
@@ -360,6 +397,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... test
 	@echo ... ApprovalTests
+	@echo ... FoodBeverageTest
 	@echo ... gilded_rose
 	@echo ... gilded_rose_approval_test
 	@echo ... gilded_rose_test
@@ -373,6 +411,9 @@ help:
 	@echo ... test/ApprovalTest.obj
 	@echo ... test/ApprovalTest.i
 	@echo ... test/ApprovalTest.s
+	@echo ... test/FoodBeverageTest.obj
+	@echo ... test/FoodBeverageTest.i
+	@echo ... test/FoodBeverageTest.s
 	@echo ... test/GildedRoseTest.obj
 	@echo ... test/GildedRoseTest.i
 	@echo ... test/GildedRoseTest.s

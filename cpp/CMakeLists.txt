@@ -47,5 +47,12 @@ target_link_libraries(gilded_rose_approval_test
     ApprovalTests::ApprovalTests
 )
 
+add_executable(FoodBeverageTest test/FoodBeverageTest.cpp)
+target_link_libraries(FoodBeverageTest
+    gilded_rose
+    GTest::gtest_main
+    ApprovalTests::ApprovalTests
+)
+
 include(GoogleTest)
 gtest_discover_tests(gilded_rose_test)
