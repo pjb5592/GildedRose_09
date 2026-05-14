@@ -10,26 +10,26 @@ void GildedRose::updateQuality() {
       continue;
     } else if (item.name == AGED_BRIE) {
       if (item.quality < MAX_QUALITY) {
-        item.quality = item.quality + 1;
+        item.quality++
       }
     } else if (item.name == BACKSTAGE_PASS) {
       if (item.quality < MAX_QUALITY) {
-        item.quality = item.quality + 1;
+        item.quality++
       }
-      if (items[i].sellIn < 11) {
-        if (items[i].quality < 50) {
-          items[i].quality = items[i].quality + 1;
+      if (item.sellIn < 11) {
+        if (item.quality < 50) {
+          item.quality++;
         }
       }
 
-      if (items[i].sellIn < 6) {
-        if (items[i].quality < 50) {
-          items[i].quality = items[i].quality + 1;
+      if (item.sellIn < 6) {
+        if (item.quality < 50) {
+          item.quality++;
         }
       }
     } else {
       if (item.quality > MIN_QUALITY) {
-        item.quality = item.quality - 1;
+        item.quality--;
       }
     }
 
@@ -38,13 +38,13 @@ void GildedRose::updateQuality() {
     if (item.sellIn < 0) {
       if (item.name == AGED_BRIE) {
         if (item.quality < MAX_QUALITY) {
-          item.quality = item.quality + 1;
+          item.quality++
         }
       } else if (item.name == BACKSTAGE_PASS) {
         item.quality = 0;
       } else {
         if (item.quality > MIN_QUALITY) {
-          item.quality = item.quality - 1;
+          item.quality--;
         }
       }
     }
