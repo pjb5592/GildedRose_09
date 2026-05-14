@@ -101,19 +101,9 @@ CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.obj: \
  D:/mingw64/include/c++/15.2.0/cstddef \
  D:/mingw64/include/c++/15.2.0/bits/uses_allocator.h \
  D:/mingw64/include/c++/15.2.0/bits/uses_allocator_args.h \
- D:/mingw64/include/c++/15.2.0/tuple D:/mingw64/include/c++/15.2.0/vector \
- D:/mingw64/include/c++/15.2.0/bits/stl_uninitialized.h \
- D:/mingw64/include/c++/15.2.0/bits/stl_vector.h \
- D:/mingw64/include/c++/15.2.0/bits/stl_bvector.h \
- D:/mingw64/include/c++/15.2.0/bits/vector.tcc \
- D:\DEV\GildedRose_09\cpp\test\ApprovalTest.cpp \
- D:/DEV/GildedRose_09/build/_deps/googletest-src/googletest/include/gtest/gtest.h \
- D:/mingw64/include/c++/15.2.0/cstdint \
- D:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
- D:/mingw64/x86_64-w64-mingw32/include/stdint.h \
- D:/mingw64/include/c++/15.2.0/limits \
- D:/mingw64/include/c++/15.2.0/memory \
+ D:/mingw64/include/c++/15.2.0/tuple D:/mingw64/include/c++/15.2.0/memory \
  D:/mingw64/include/c++/15.2.0/bits/stl_tempbuf.h \
+ D:/mingw64/include/c++/15.2.0/bits/stl_uninitialized.h \
  D:/mingw64/include/c++/15.2.0/bits/stl_raw_storage_iter.h \
  D:/mingw64/include/c++/15.2.0/bits/align.h \
  D:/mingw64/include/c++/15.2.0/bits/unique_ptr.h \
@@ -151,6 +141,16 @@ CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.obj: \
  D:/mingw64/include/c++/15.2.0/backward/auto_ptr.h \
  D:/mingw64/include/c++/15.2.0/pstl/glue_memory_defs.h \
  D:/mingw64/include/c++/15.2.0/pstl/execution_defs.h \
+ D:/mingw64/include/c++/15.2.0/vector \
+ D:/mingw64/include/c++/15.2.0/bits/stl_vector.h \
+ D:/mingw64/include/c++/15.2.0/bits/stl_bvector.h \
+ D:/mingw64/include/c++/15.2.0/bits/vector.tcc \
+ D:\DEV\GildedRose_09\cpp\test\ApprovalTest.cpp \
+ D:/DEV/GildedRose_09/build/_deps/googletest-src/googletest/include/gtest/gtest.h \
+ D:/mingw64/include/c++/15.2.0/cstdint \
+ D:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
+ D:/mingw64/x86_64-w64-mingw32/include/stdint.h \
+ D:/mingw64/include/c++/15.2.0/limits \
  D:/mingw64/include/c++/15.2.0/ostream \
  D:/mingw64/include/c++/15.2.0/bits/ostream.h \
  D:/mingw64/include/c++/15.2.0/ios \

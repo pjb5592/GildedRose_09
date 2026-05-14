@@ -1,10 +1,6 @@
-#pragma once
-#include "item.h"
+// class SulfurasItem : public GildedRoseItem {
+// public:
+//   using GildedRoseItem::GildedRoseItem;
 
-class SulfurasItem {
-  Item &item_; // 참조로 보관
-public:
-  explicit SulfurasItem(Item &item) : item_(item) {}
-
-  void updateQuality() {}
-};
+//   void updateQuality() override {}
+// };

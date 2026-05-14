@@ -101,8 +101,47 @@ CMakeFiles/gilded_rose.dir/src/GildedRose.cpp.obj: \
  D:/mingw64/include/c++/15.2.0/cstddef \
  D:/mingw64/include/c++/15.2.0/bits/uses_allocator.h \
  D:/mingw64/include/c++/15.2.0/bits/uses_allocator_args.h \
- D:/mingw64/include/c++/15.2.0/tuple D:/mingw64/include/c++/15.2.0/vector \
+ D:/mingw64/include/c++/15.2.0/tuple D:/mingw64/include/c++/15.2.0/memory \
+ D:/mingw64/include/c++/15.2.0/bits/stl_tempbuf.h \
  D:/mingw64/include/c++/15.2.0/bits/stl_uninitialized.h \
+ D:/mingw64/include/c++/15.2.0/bits/stl_raw_storage_iter.h \
+ D:/mingw64/include/c++/15.2.0/bits/align.h \
+ D:/mingw64/include/c++/15.2.0/bits/unique_ptr.h \
+ D:/mingw64/include/c++/15.2.0/bits/shared_ptr.h \
+ D:/mingw64/include/c++/15.2.0/bits/shared_ptr_base.h \
+ D:/mingw64/include/c++/15.2.0/typeinfo \
+ D:/mingw64/include/c++/15.2.0/bits/allocated_ptr.h \
+ D:/mingw64/include/c++/15.2.0/ext/aligned_buffer.h \
+ D:/mingw64/include/c++/15.2.0/ext/atomicity.h \
+ D:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/gthr.h \
+ D:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/gthr-default.h \
+ D:/mingw64/x86_64-w64-mingw32/include/pthread.h \
+ D:/mingw64/x86_64-w64-mingw32/include/sys/types.h \
+ D:/mingw64/x86_64-w64-mingw32/include/process.h \
+ D:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
+ D:/mingw64/x86_64-w64-mingw32/include/signal.h \
+ D:/mingw64/x86_64-w64-mingw32/include/pthread_signal.h \
+ D:/mingw64/x86_64-w64-mingw32/include/time.h \
+ D:/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \
+ D:/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+ D:/mingw64/x86_64-w64-mingw32/include/_timeval.h \
+ D:/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
+ D:/mingw64/x86_64-w64-mingw32/include/pthread_compat.h \
+ D:/mingw64/x86_64-w64-mingw32/include/sched.h \
+ D:/mingw64/x86_64-w64-mingw32/include/pthread_unistd.h \
+ D:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
+ D:/mingw64/include/c++/15.2.0/ext/concurrence.h \
+ D:/mingw64/include/c++/15.2.0/exception \
+ D:/mingw64/include/c++/15.2.0/bits/exception_ptr.h \
+ D:/mingw64/include/c++/15.2.0/bits/cxxabi_init_exception.h \
+ D:/mingw64/include/c++/15.2.0/bits/nested_exception.h \
+ D:/mingw64/include/c++/15.2.0/bits/shared_ptr_atomic.h \
+ D:/mingw64/include/c++/15.2.0/bits/atomic_base.h \
+ D:/mingw64/include/c++/15.2.0/bits/atomic_lockfree_defines.h \
+ D:/mingw64/include/c++/15.2.0/backward/auto_ptr.h \
+ D:/mingw64/include/c++/15.2.0/pstl/glue_memory_defs.h \
+ D:/mingw64/include/c++/15.2.0/pstl/execution_defs.h \
+ D:/mingw64/include/c++/15.2.0/vector \
  D:/mingw64/include/c++/15.2.0/bits/stl_vector.h \
  D:/mingw64/include/c++/15.2.0/bits/stl_bvector.h \
  D:/mingw64/include/c++/15.2.0/bits/vector.tcc

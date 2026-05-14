@@ -1,12 +1,8 @@
-#pragma once
-#include "item.h"
-
-class NormalItem {
-  Item &item_; // 참조로 보관
+class NormalItem : public GildedRoseItem {
 public:
-  explicit NormalItem(Item &item) : item_(item) {}
+  using GildedRoseItem::GildedRoseItem;
 
-  void updateQuality() {
+  void updateQuality() override {
     static constexpr int MAX = 50;
     static constexpr int MIN = 0;
     if (item_.quality > MIN) {

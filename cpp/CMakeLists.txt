@@ -25,7 +25,7 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(ApprovalTests)
 
 # Library
-add_library(gilded_rose src/GildedRose.cpp )
+add_library(gilded_rose src/GildedRose.cpp)
 target_include_directories(gilded_rose PUBLIC include)
 
 # Tests
