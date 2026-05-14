@@ -67,3 +67,9 @@ ctest --test-dir build
   - 로직 중복 - 중복 코드, 산탄총 수술
   - GildedRose가 Item 객체의 data에 직접 입출력 - 전역 데이터, 가변 데이터, 내부자 거래
   - GildedRose가 Item 객체의 함수를 과도하게 사용 - 기능 편애, 상속 편의
+- 추가 기능
+  - Food&Beverage: NormalItem의 2배 Quality 감소. 기한 지나면 추가 2배(총 4배)
+    - Test Case:
+      1. "[F&B] Bread", 5, 20 → 4, 18
+      2. "[F&B] Milk", 0, 20 →  16
+      3. "[F&B] Water", 0, 1 → 0
