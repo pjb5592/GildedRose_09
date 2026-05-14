@@ -86,12 +86,12 @@
         {
           "name": "DegradesFourTimesAfterSellIn",
           "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
-          "line": 119
+          "line": 121
         },
         {
           "name": "QualityNeverBelowZero",
           "file": "D:\\DEV\\GildedRose_09\\cpp\\test\\GildedRoseTest.cpp",
-          "line": 127
+          "line": 131
         }
       ]
     }
