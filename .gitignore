@@ -1,0 +1,29 @@
+# Build
+/build/
+/out/
+/bin/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Testing
+Testing/
+*.log
+
+# VS Code
+.vscode/
+
+# Executables
+*.exe
+*.out
+
+# Object files
+*.o
+*.obj
+
+# Temporary
+*.tmp
+*.temp 
