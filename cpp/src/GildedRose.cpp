@@ -19,7 +19,7 @@ std::unique_ptr<GildedRoseItem> GildedRose::createItem(Item &item) {
     gi = std::make_unique<AgedBrieItem>(item);
   } else if (item.name == BACKSTAGE_PASS) {
     gi = std::make_unique<BackStagePassItem>(item);
-  } else if (item.name.substr(0, 5) == FOODANDBEVERAGE) {
+  } else if (item.name.find("[F&B]") != std::string::npos) {
     gi = std::make_unique<FoodBeverageItem>(item);
   } else {
     gi = std::make_unique<NormalItem>(item);
@@ -28,10 +28,8 @@ std::unique_ptr<GildedRoseItem> GildedRose::createItem(Item &item) {
 }
 
 void GildedRose::updateQuality() {
-  for (size_t i = 0; i < items.size(); i++) {
-    Item &item = items[i];
-    std::unique_ptr<GildedRoseItem> gildedRoseItem = createItem(item);
-    gildedRoseItem->updateQuality();
+  for (auto &item : items) {
+    createItem(item)->updateQuality();
     updateSellIn(item);
   }
 }
