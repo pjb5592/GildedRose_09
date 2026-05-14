@@ -1,5 +1,5 @@
 add_test([=[ApprovalTest.PrintTextFixture]=]  D:/DEV/GildedRose_09/build/gilded_rose_test.exe [==[--gtest_filter=ApprovalTest.PrintTextFixture]==] --gtest_also_run_disabled_tests)
-set_tests_properties([=[ApprovalTest.PrintTextFixture]=]  PROPERTIES DEF_SOURCE_LINE [==[D:\DEV\GildedRose_09\cpp\test\ApprovalTest.cpp:65]==] WORKING_DIRECTORY D:/DEV/GildedRose_09/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set_tests_properties([=[ApprovalTest.PrintTextFixture]=]  PROPERTIES DEF_SOURCE_LINE [==[D:\DEV\GildedRose_09\cpp\test\ApprovalTest.cpp:60]==] WORKING_DIRECTORY D:/DEV/GildedRose_09/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
 add_test([=[GildedRoseTest.Foo]=]  D:/DEV/GildedRose_09/build/gilded_rose_test.exe [==[--gtest_filter=GildedRoseTest.Foo]==] --gtest_also_run_disabled_tests)
 set_tests_properties([=[GildedRoseTest.Foo]=]  PROPERTIES DEF_SOURCE_LINE [==[D:\DEV\GildedRose_09\cpp\test\GildedRoseTest.cpp:7]==] WORKING_DIRECTORY D:/DEV/GildedRose_09/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
 add_test([=[GildedRoseTest.NormalItemQualityLowerLimit]=]  D:/DEV/GildedRose_09/build/gilded_rose_test.exe [==[--gtest_filter=GildedRoseTest.NormalItemQualityLowerLimit]==] --gtest_also_run_disabled_tests)
