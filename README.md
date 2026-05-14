@@ -60,3 +60,10 @@ ctest --test-dir build
 - TC-08: 공연 지난 후 품질 0
 - TC-09: 품질 50 초과 후 공연 종료
 - TC-10: 아이템이 없을 경우 처리
+- 문제점
+  - updateQuality 함수가 너무 길고 많은 역할을 가지고 있음(sellIn, quality 등) - 긴 함수, SRP 위반
+  - if 구문 중첩 - 
+  - 하드 코딩된 item명
+  - 로직 중복 - 중복 코드, 산탄총 수술
+  - GildedRose가 Item 객체의 data에 직접 입출력 - 전역 데이터, 가변 데이터, 내부자 거래
+  - GildedRose가 Item 객체의 함수를 과도하게 사용 - 기능 편애, 상속 편의
