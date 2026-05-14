@@ -1,6 +1,8 @@
 CMakeFiles/gilded_rose.dir/src/GildedRose.cpp.obj: \
  D:\DEV\GildedRose_09\cpp\src\GildedRose.cpp \
  D:/DEV/GildedRose_09/cpp/include/GildedRose.h \
+ D:/DEV/GildedRose_09/cpp/include/AgedBrieItem.hpp \
+ D:/DEV/GildedRose_09/cpp/include/GildedRoseItem.hpp \
  D:/DEV/GildedRose_09/cpp/include/Item.h \
  D:/mingw64/include/c++/15.2.0/string \
  D:/mingw64/include/c++/15.2.0/bits/requires_hosted.h \
@@ -101,7 +103,11 @@ CMakeFiles/gilded_rose.dir/src/GildedRose.cpp.obj: \
  D:/mingw64/include/c++/15.2.0/cstddef \
  D:/mingw64/include/c++/15.2.0/bits/uses_allocator.h \
  D:/mingw64/include/c++/15.2.0/bits/uses_allocator_args.h \
- D:/mingw64/include/c++/15.2.0/tuple D:/mingw64/include/c++/15.2.0/memory \
+ D:/mingw64/include/c++/15.2.0/tuple \
+ D:/DEV/GildedRose_09/cpp/include/BackStagePassItem.hpp \
+ D:/DEV/GildedRose_09/cpp/include/NormalItem.hpp \
+ D:/DEV/GildedRose_09/cpp/include/SulfurasItem.hpp \
+ D:/mingw64/include/c++/15.2.0/memory \
  D:/mingw64/include/c++/15.2.0/bits/stl_tempbuf.h \
  D:/mingw64/include/c++/15.2.0/bits/stl_uninitialized.h \
  D:/mingw64/include/c++/15.2.0/bits/stl_raw_storage_iter.h \

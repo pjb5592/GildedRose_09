@@ -3,6 +3,7 @@
 
 CMakeFiles/gilded_rose.dir/src/GildedRose.cpp.obj: D:/DEV/GildedRose_09/cpp/src/GildedRose.cpp \
   D:/DEV/GildedRose_09/cpp/include/GildedRose.h \
+  D:/DEV/GildedRose_09/cpp/include/GildedRoseItem.hpp \
   D:/DEV/GildedRose_09/cpp/include/Item.h \
   D:/mingw64/include/c++/15.2.0/backward/auto_ptr.h \
   D:/mingw64/include/c++/15.2.0/backward/binders.h \
@@ -181,8 +182,6 @@ D:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/atomic_word.h:
 
 D:/mingw64/include/c++/15.2.0/bits/stl_iterator_base_types.h:
 
-D:/mingw64/include/c++/15.2.0/bits/stl_iterator_base_funcs.h:
-
 D:/mingw64/include/c++/15.2.0/bits/stl_function.h:
 
 D:/mingw64/include/c++/15.2.0/bit:
@@ -221,9 +220,9 @@ D:/mingw64/include/c++/15.2.0/bits/move.h:
 
 D:/mingw64/include/c++/15.2.0/bits/memoryfwd.h:
 
-D:/mingw64/include/c++/15.2.0/bits/basic_string.h:
+D:/mingw64/include/c++/15.2.0/bits/stl_iterator_base_funcs.h:
 
-D:/mingw64/include/c++/15.2.0/pstl/pstl_config.h:
+D:/DEV/GildedRose_09/cpp/include/GildedRoseItem.hpp:
 
 D:/mingw64/include/c++/15.2.0/bits/basic_string.tcc:
 
@@ -271,6 +270,10 @@ D:/mingw64/x86_64-w64-mingw32/include/vadefs.h:
 
 D:/DEV/GildedRose_09/cpp/src/GildedRose.cpp:
 
+D:/mingw64/include/c++/15.2.0/bits/basic_string.h:
+
+D:/mingw64/include/c++/15.2.0/pstl/pstl_config.h:
+
 D:/mingw64/include/c++/15.2.0/bits/allocator.h:
 
 D:/mingw64/include/c++/15.2.0/bits/char_traits.h:
@@ -305,10 +308,6 @@ D:/mingw64/include/c++/15.2.0/bits/functional_hash.h:
 
 D:/mingw64/include/c++/15.2.0/bits/hash_bytes.h:
 
-D:/mingw64/include/c++/15.2.0/bits/unique_ptr.h:
-
-D:/mingw64/include/c++/15.2.0/ext/alloc_traits.h:
-
 D:/mingw64/include/c++/15.2.0/bits/alloc_traits.h:
 
 D:/mingw64/x86_64-w64-mingw32/include/signal.h:
@@ -326,6 +325,10 @@ D:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h:
 D:/mingw64/include/c++/15.2.0/bits/requires_hosted.h:
 
 D:/mingw64/x86_64-w64-mingw32/include/locale.h:
+
+D:/mingw64/include/c++/15.2.0/ext/alloc_traits.h:
+
+D:/mingw64/include/c++/15.2.0/bits/unique_ptr.h:
 
 D:/mingw64/include/c++/15.2.0/bits/stl_algobase.h:
 
@@ -443,6 +446,6 @@ D:/mingw64/x86_64-w64-mingw32/include/errno.h:
 
 D:/mingw64/x86_64-w64-mingw32/include/limits.h:
 
-D:/mingw64/x86_64-w64-mingw32/include/malloc.h:
-
 D:/mingw64/x86_64-w64-mingw32/include/process.h:
+
+D:/mingw64/x86_64-w64-mingw32/include/malloc.h:

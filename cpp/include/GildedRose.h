@@ -1,13 +1,18 @@
 #pragma once
+#include "AgedBrieItem.hpp"
+#include "BackStagePassItem.hpp"
+#include "GildedRoseItem.hpp"
 #include "Item.h"
+#include "NormalItem.hpp"
+#include "SulfurasItem.hpp"
 #include <memory>
 #include <vector>
 
-class GildedRoseItem;
-class AgedBrieItem;
-class BackStagePassItem;
-class NormalItem;
-class SulfurasItem;
+// class GildedRoseItem;
+// class AgedBrieItem;
+// class BackStagePassItem;
+// class NormalItem;
+// class SulfurasItem;
 class GildedRose {
 private:
   static constexpr const char *AGED_BRIE = "Aged Brie";
