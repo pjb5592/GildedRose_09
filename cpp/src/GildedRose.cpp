@@ -1,62 +1,41 @@
 #include "GildedRose.h"
+#include "AgedBrieItem.hpp"
+#include "BackStagePassItem.hpp"
+#include "FoodBeverageItem.hpp"
+#include "GildedRoseItem.hpp"
+#include "NormalItem.hpp"
+#include "SulfurasItem.hpp"
+#include "item.h"
+#include <memory>
 
 GildedRose::GildedRose(std::vector<Item> &items) : items(items) {}
 
+std::unique_ptr<GildedRoseItem> GildedRose::createItem(Item &item) {
+  std::unique_ptr<GildedRoseItem> gi;
+
+  if (item.getName().find(SULFURAS) != std::string::npos) {
+    gi = std::make_unique<SulfurasItem>(item);
+  } else if (item.getName().find(AGED_BRIE) != std::string::npos) {
+    gi = std::make_unique<AgedBrieItem>(item);
+  } else if (item.getName().find(BACKSTAGE_PASS) != std::string::npos) {
+    gi = std::make_unique<BackStagePassItem>(item);
+  } else if (item.getName().find(FOODBEVERAGE) != std::string::npos) {
+    gi = std::make_unique<FoodBeverageItem>(item);
+  } else {
+    gi = std::make_unique<NormalItem>(item);
+  }
+  return gi;
+}
+
 void GildedRose::updateQuality() {
-  for (size_t i = 0; i < items.size(); i++) {
+  for (auto &item : items) {
+    createItem(item)->updateQuality();
+    updateSellIn(item);
+  }
+}
 
-    if (items[i].name.substr(0, 8) == "Sulfuras")
-      continue;
-
-    if (items[i].name != "Aged Brie" &&
-        items[i].name != "Backstage passes to a TAFKAL80ETC concert") {
-      if (items[i].quality > 0) {
-        if (items[i].name != "Sulfuras, Hand of Ragnaros") {
-          items[i].quality = items[i].quality - 1;
-        }
-      }
-    } else {
-      if (items[i].quality < 50) {
-        items[i].quality = items[i].quality + 1;
-
-        if (items[i].name == "Backstage passes to a TAFKAL80ETC concert") {
-          if (items[i].sellIn < 11) {
-            if (items[i].quality < 50) {
-              items[i].quality = items[i].quality + 1;
-            } else {
-              items[i].sellIn = -1; //
-            }
-          }
-
-          if (items[i].sellIn < 6) {
-            if (items[i].quality < 50) {
-              items[i].quality = items[i].quality + 1;
-            }
-          }
-        }
-      }
-    }
-
-    if (items[i].name != "Sulfuras, Hand of Ragnaros") {
-      items[i].sellIn = items[i].sellIn - 1;
-    }
-
-    if (items[i].sellIn < 0) {
-      if (items[i].name != "Aged Brie") {
-        if (items[i].name != "Backstage passes to a TAFKAL80ETC concert") {
-          if (items[i].quality > 0) {
-            if (items[i].name != "Sulfuras, Hand of Ragnaros") {
-              items[i].quality = items[i].quality - 1;
-            }
-          }
-        } else {
-          items[i].quality = items[i].quality - items[i].quality;
-        }
-      } else {
-        if (items[i].quality < 50) {
-          items[i].quality = items[i].quality + 1;
-        }
-      }
-    }
+void GildedRose::updateSellIn(Item &item) {
+  if (item.getName() != SULFURAS) {
+    item.decreaseSellIn();
   }
 }

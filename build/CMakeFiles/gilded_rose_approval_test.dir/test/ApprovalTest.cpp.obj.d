@@ -249,4 +249,10 @@ CMakeFiles/gilded_rose_approval_test.dir/test/ApprovalTest.cpp.obj: \
  D:/DEV/GildedRose_09/build/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h \
  D:/DEV/GildedRose_09/build/_deps/googletest-src/googletest/include/gtest/gtest_prod.h \
  D:/DEV/GildedRose_09/cpp/include/GildedRose.h \
- D:/DEV/GildedRose_09/cpp/include/Item.h
+ D:/DEV/GildedRose_09/cpp/include/AgedBrieItem.hpp \
+ D:/DEV/GildedRose_09/cpp/include/GildedRoseItem.hpp \
+ D:/DEV/GildedRose_09/cpp/include/Item.h \
+ D:/DEV/GildedRose_09/cpp/include/BackStagePassItem.hpp \
+ D:/DEV/GildedRose_09/cpp/include/FoodBeverageItem.hpp \
+ D:/DEV/GildedRose_09/cpp/include/NormalItem.hpp \
+ D:/DEV/GildedRose_09/cpp/include/SulfurasItem.hpp

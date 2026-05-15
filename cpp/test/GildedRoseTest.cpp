@@ -10,8 +10,6 @@ TEST(GildedRoseTest, Foo) {
   app.updateQuality();
 
   ApprovalTests::Approvals::verify(app.items[0].toString());
-
-  // EXPECT_EQ("foo", app.items[0].name);
 }
 
 // TC-01: 일반 아이템 품질 하한 확인
@@ -21,9 +19,6 @@ TEST(GildedRoseTest, NormalItemQualityLowerLimit) {
   app.updateQuality();
 
   ApprovalTests::Approvals::verify(app.items[0].toString());
-
-  // EXPECT_EQ(-1, app.items[0].sellIn);
-  // EXPECT_EQ(0, app.items[0].quality);
 }
 
 // TC-02: 기한 지난 일반 아이템
@@ -33,33 +28,24 @@ TEST(GildedRoseTest, OutOfDateNormalItemQualityDisplacement) {
   app.updateQuality();
 
   ApprovalTests::Approvals::verify(app.items[0].toString());
-
-  // EXPECT_EQ(-1, app.items[0].sellIn);
-  // EXPECT_EQ(3, app.items[0].quality);
 }
 
 // TC-03: 전설 아이템은 변하지 않음
 TEST(GildedRoseTest, FixedQualityOfSulfurasItem) {
-  std::vector<Item> items = {Item("Sulfuras", 0, 5)};
+  std::vector<Item> items = {Item("Sulfuras, Hand of Ragnaros", 0, 5)};
   GildedRose app(items);
   app.updateQuality();
 
   ApprovalTests::Approvals::verify(app.items[0].toString());
-
-  // EXPECT_EQ(0, app.items[0].sellIn);
-  // EXPECT_EQ(5, app.items[0].quality);
 }
 
 // TC-04: 기한 마감 후에도 변하진 않음
 TEST(GildedRoseTest, FixedQualityOfOutOfDateSulfurasItem) {
-  std::vector<Item> items = {Item("Sulfuras", -1, 5)};
+  std::vector<Item> items = {Item("Sulfuras, Hand of Ragnaros", -1, 5)};
   GildedRose app(items);
   app.updateQuality();
 
   ApprovalTests::Approvals::verify(app.items[0].toString());
-
-  // EXPECT_EQ(-1, app.items[0].sellIn);
-  // EXPECT_EQ(5, app.items[0].quality);
 }
 
 // TC-05: 기한 지난 Aged Brie는 품질 +2
@@ -69,9 +55,6 @@ TEST(GildedRoseTest, QualityUp2WhenOutOfDateAgedBrieItem) {
   app.updateQuality();
 
   ApprovalTests::Approvals::verify(app.items[0].toString());
-
-  // EXPECT_EQ(-1, app.items[0].sellIn);
-  // EXPECT_EQ(2, app.items[0].quality);
 }
 
 // TC-06: 품질 상한 테스트
@@ -81,9 +64,6 @@ TEST(GildedRoseTest, QualityUpperLimit) {
   app.updateQuality();
 
   ApprovalTests::Approvals::verify(app.items[0].toString());
-
-  // EXPECT_EQ(-1, app.items[0].sellIn);
-  // EXPECT_EQ(50, app.items[0].quality);
 }
 
 // TC-07: Backstage: 10일 초과 시 +1
@@ -94,9 +74,6 @@ TEST(GildedRoseTest, QualityUpWhenBackstageAndSellinOver10) {
   app.updateQuality();
 
   ApprovalTests::Approvals::verify(app.items[0].toString());
-
-  // EXPECT_EQ(14, app.items[0].sellIn);
-  // EXPECT_EQ(1, app.items[0].quality);
 }
 
 // TC-08: 공연 지난 후 품질 0
@@ -107,9 +84,6 @@ TEST(GildedRoseTest, QualityInitialAfterBackstage) {
   app.updateQuality();
 
   ApprovalTests::Approvals::verify(app.items[0].toString());
-
-  // EXPECT_EQ(-1, app.items[0].sellIn);
-  // EXPECT_EQ(0, app.items[0].quality);
 }
 
 // TC-09: 품질 50 초과 후 공연 종료
@@ -120,9 +94,6 @@ TEST(GildedRoseTest, EndBackStageOverQuality50) {
   app.updateQuality();
 
   ApprovalTests::Approvals::verify(app.items[0].toString());
-
-  // EXPECT_EQ(-1, app.items[0].sellIn);
-  // EXPECT_EQ(0, app.items[0].quality);
 }
 
 // TC-10: 아이템이 없을 경우 처리
@@ -132,6 +103,36 @@ TEST(GildedRoseTest, EmptyItem) {
   app.updateQuality();
 
   ApprovalTests::Approvals::verify(app.items.size());
+}
 
-  // EXPECT_EQ(0, app.items.size());
+// F&B 테스트(FoodBeverageTest.cpp)
+// TC-11: F&B 정상 동작
+TEST(FoodBeverageTest, DegradesTwiceAsNormal) {
+  std::vector<Item> items = {Item("[F&B] Bread", 5, 20)};
+  GildedRose app(items);
+  app.updateQuality();
+  // EXPECT_EQ(4, items[0].sellIn);
+  // EXPECT_EQ(18, items[0].quality); // 20 -2 = 18
+
+  ApprovalTests::Approvals::verify(app.items[0].toString());
+}
+
+// TC-12: F&B 기한 지났을 때 동작
+TEST(FoodBeverageTest, DegradesFourTimesAfterSellIn) {
+  std::vector<Item> items = {Item("[F&B] Milk", 0, 20)};
+  GildedRose app(items);
+  app.updateQuality();
+  // EXPECT_EQ(16, items[0].quality); // 20 -4 = 16
+
+  ApprovalTests::Approvals::verify(app.items[0].toString());
+}
+
+// TC-13: F&B Quality 품질 하한 확인
+TEST(FoodBeverageTest, QualityNeverBelowZero) {
+  std::vector<Item> items = {Item("[F&B] Water", 0, 1)};
+  GildedRose app(items);
+  app.updateQuality();
+  // EXPECT_EQ(0, items[0].quality); // 0 유지
+
+  ApprovalTests::Approvals::verify(app.items[0].toString());
 }

@@ -116,8 +116,14 @@ CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.obj: D:/DEV/GildedRose_0
   _deps/googletest-src/googletest/include/gtest/internal/gtest-port.h \
   _deps/googletest-src/googletest/include/gtest/internal/gtest-string.h \
   _deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
+  D:/DEV/GildedRose_09/cpp/include/AgedBrieItem.hpp \
+  D:/DEV/GildedRose_09/cpp/include/BackStagePassItem.hpp \
+  D:/DEV/GildedRose_09/cpp/include/FoodBeverageItem.hpp \
   D:/DEV/GildedRose_09/cpp/include/GildedRose.h \
+  D:/DEV/GildedRose_09/cpp/include/GildedRoseItem.hpp \
   D:/DEV/GildedRose_09/cpp/include/Item.h \
+  D:/DEV/GildedRose_09/cpp/include/NormalItem.hpp \
+  D:/DEV/GildedRose_09/cpp/include/SulfurasItem.hpp \
   D:/mingw64/include/c++/15.2.0/algorithm \
   D:/mingw64/include/c++/15.2.0/any \
   D:/mingw64/include/c++/15.2.0/array \
@@ -394,8 +400,6 @@ D:/mingw64/x86_64-w64-mingw32/include/stdint.h:
 
 D:/mingw64/x86_64-w64-mingw32/include/sec_api/wconio_s.h:
 
-D:/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h:
-
 D:/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h:
 
 D:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
@@ -522,15 +526,27 @@ D:/mingw64/include/c++/15.2.0/ext/atomicity.h:
 
 D:/mingw64/include/c++/15.2.0/debug/debug.h:
 
-D:/mingw64/include/c++/15.2.0/bit:
+D:/mingw64/include/c++/15.2.0/cxxabi.h:
 
-D:/mingw64/include/c++/15.2.0/pstl/glue_algorithm_defs.h:
+D:/mingw64/include/c++/15.2.0/cwchar:
 
-_deps/approvaltests-src/ApprovalTests/reporters/QuietReporter.h:
+D:/mingw64/include/c++/15.2.0/ctime:
+
+D:/mingw64/include/c++/15.2.0/cstdlib:
 
 D:/mingw64/include/c++/15.2.0/array:
 
 D:/mingw64/include/c++/15.2.0/bits/stl_iterator_base_funcs.h:
+
+D:/mingw64/include/c++/15.2.0/deque:
+
+_deps/approvaltests-src/ApprovalTests/namers/DefaultNamerFactory.h:
+
+D:/mingw64/include/c++/15.2.0/bits/range_access.h:
+
+D:/DEV/GildedRose_09/cpp/include/BackStagePassItem.hpp:
+
+_deps/googletest-src/googletest/include/gtest/gtest-death-test.h:
 
 _deps/googletest-src/googletest/include/gtest/internal/gtest-string.h:
 
@@ -547,8 +563,6 @@ _deps/googletest-src/googletest/include/gtest/gtest-printers.h:
 _deps/googletest-src/googletest/include/gtest/gtest-param-test.h:
 
 _deps/googletest-src/googletest/include/gtest/gtest-matchers.h:
-
-_deps/googletest-src/googletest/include/gtest/gtest-death-test.h:
 
 _deps/approvaltests-src/ApprovalTests/writers/StringWriter.h:
 
@@ -570,9 +584,9 @@ _deps/googletest-src/googletest/include/gtest/gtest_prod.h:
 
 _deps/approvaltests-src/ApprovalTests/utilities/MachineBlocker.h:
 
-D:/mingw64/include/c++/15.2.0/bits/align.h:
+D:/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h:
 
-_deps/approvaltests-src/ApprovalTests/integrations/fmt/FmtToString.h:
+D:/DEV/GildedRose_09/cpp/include/AgedBrieItem.hpp:
 
 D:/mingw64/x86_64-w64-mingw32/include/sys/types.h:
 
@@ -593,8 +607,6 @@ _deps/approvaltests-src/ApprovalTests/utilities/EmptyFileCreatorFactory.h:
 _deps/approvaltests-src/ApprovalTests/writers/ExistingFile.h:
 
 _deps/approvaltests-src/ApprovalTests/namers/ApprovalTestNamer.h:
-
-D:/mingw64/include/c++/15.2.0/cstdlib:
 
 _deps/approvaltests-src/ApprovalTests/utilities/EmptyFileCreatorDisposer.h:
 
@@ -622,6 +634,18 @@ _deps/approvaltests-src/ApprovalTests/reporters/ReporterFactory.h:
 
 _deps/approvaltests-src/ApprovalTests/comparators/ComparatorDisposer.h:
 
+_deps/approvaltests-src/ApprovalTests/core/ApprovalComparator.h:
+
+_deps/approvaltests-src/ApprovalTests/reporters/EnvironmentVariableReporter.h:
+
+D:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h:
+
+D:/mingw64/include/c++/15.2.0/utility:
+
+D:/DEV/GildedRose_09/cpp/include/GildedRoseItem.hpp:
+
+D:/mingw64/include/c++/15.2.0/atomic:
+
 D:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:
 
 _deps/approvaltests-src/ApprovalTests/reporters/FrontLoadedReporterFactory.h:
@@ -636,27 +660,11 @@ D:/mingw64/include/c++/15.2.0/bits/chrono.h:
 
 _deps/approvaltests-src/ApprovalTests/reporters/FirstWorkingReporter.h:
 
-_deps/approvaltests-src/ApprovalTests/core/ApprovalComparator.h:
-
-_deps/approvaltests-src/ApprovalTests/reporters/EnvironmentVariableReporter.h:
-
-D:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h:
-
-D:/mingw64/include/c++/15.2.0/utility:
-
-D:/mingw64/include/c++/15.2.0/atomic:
-
 _deps/approvaltests-src/ApprovalTests/reporters/DiffInfo.h:
 
 _deps/approvaltests-src/ApprovalTests/integrations/google/GoogleCustomizationsFactory.h:
 
 D:/mingw64/include/c++/15.2.0/bits/stl_multiset.h:
-
-D:/mingw64/include/c++/15.2.0/deque:
-
-_deps/approvaltests-src/ApprovalTests/namers/DefaultNamerFactory.h:
-
-D:/mingw64/include/c++/15.2.0/bits/range_access.h:
 
 D:/mingw64/include/c++/15.2.0/stdexcept:
 
@@ -674,8 +682,6 @@ D:/mingw64/include/c++/15.2.0/pstl/glue_memory_defs.h:
 
 D:/mingw64/include/c++/15.2.0/bits/postypes.h:
 
-D:/mingw64/include/c++/15.2.0/cxxabi.h:
-
 _deps/approvaltests-src/ApprovalTests/ApprovalsMacroDefaults.h:
 
 _deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h:
@@ -689,6 +695,8 @@ D:/mingw64/include/c++/15.2.0/bits/atomic_base.h:
 _deps/approvaltests-src/ApprovalTests/integrations/cpputest/CppUTestApprovals.h:
 
 _deps/approvaltests-src/ApprovalTests/integrations/catch/Catch2Approvals.h:
+
+D:/DEV/GildedRose_09/cpp/include/SulfurasItem.hpp:
 
 D:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/gthr.h:
 
@@ -714,6 +722,10 @@ _deps/approvaltests-src/ApprovalTests/reporters/AutoApproveReporter.h:
 
 D:/mingw64/include/c++/15.2.0/bits/basic_string.h:
 
+_deps/approvaltests-src/ApprovalTests/integrations/fmt/FmtToString.h:
+
+D:/mingw64/include/c++/15.2.0/bits/align.h:
+
 _deps/approvaltests-src/ApprovalTests/scrubbers/Scrubbers.h:
 
 D:/DEV/GildedRose_09/cpp/include/GildedRose.h:
@@ -722,9 +734,9 @@ D:/mingw64/include/c++/15.2.0/bits/stream_iterator.h:
 
 D:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/messages_members.h:
 
-_deps/approvaltests-src/ApprovalTests/core/FileApprover.h:
+D:/DEV/GildedRose_09/cpp/include/NormalItem.hpp:
 
-D:/mingw64/include/c++/15.2.0/bits/algorithmfwd.h:
+_deps/approvaltests-src/ApprovalTests/core/FileApprover.h:
 
 _deps/googletest-src/googletest/include/gtest/gtest-message.h:
 
@@ -744,17 +756,21 @@ D:/mingw64/include/c++/15.2.0/bits/ostream.h:
 
 D:/mingw64/include/c++/15.2.0/bits/functional_hash.h:
 
+D:/mingw64/include/c++/15.2.0/pstl/glue_algorithm_defs.h:
+
+_deps/approvaltests-src/ApprovalTests/reporters/QuietReporter.h:
+
+D:/mingw64/include/c++/15.2.0/bit:
+
 _deps/approvaltests-src/ApprovalTests/integrations/boost_test/BoostTestApprovals.h:
 
 _deps/approvaltests-src/ApprovalTests/utilities/EmptyFileCreatorByType.h:
 
-D:/mingw64/include/c++/15.2.0/bits/stl_deque.h:
-
-_deps/approvaltests-src/ApprovalTests/reporters/GenericDiffReporter.h:
-
 D:/mingw64/include/c++/15.2.0/bits/cxxabi_init_exception.h:
 
 _deps/approvaltests-src/ApprovalTests/CombinationApprovals.h:
+
+D:/DEV/GildedRose_09/cpp/include/FoodBeverageItem.hpp:
 
 _deps/approvaltests-src/ApprovalTests/core/ApprovalWriter.h:
 
@@ -774,9 +790,9 @@ D:/mingw64/include/c++/15.2.0/ratio:
 
 D:/mingw64/include/c++/15.2.0/exception:
 
-D:/mingw64/include/c++/15.2.0/bits/stl_raw_storage_iter.h:
-
 _deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h:
+
+D:/mingw64/include/c++/15.2.0/bits/stl_raw_storage_iter.h:
 
 _deps/approvaltests-src/ApprovalTests/core/ApprovalException.h:
 
@@ -812,8 +828,6 @@ _deps/approvaltests-src/ApprovalTests/reporters/CIBuildOnlyReporter.h:
 
 _deps/approvaltests-src/ApprovalTests/Storyboard.h:
 
-D:/mingw64/include/c++/15.2.0/ctime:
-
 D:/DEV/GildedRose_09/cpp/test/GildedRoseTest.cpp:
 
 D:/mingw64/x86_64-w64-mingw32/include/locale.h:
@@ -827,12 +841,6 @@ _deps/approvaltests-src/ApprovalTests/integrations/ut/UTApprovals.h:
 D:/mingw64/include/c++/15.2.0/bits/monostate.h:
 
 _deps/approvaltests-src/ApprovalTests/namers/FileNameSanitizerFactory.h:
-
-D:/mingw64/include/c++/15.2.0/backward/binders.h:
-
-D:/mingw64/include/c++/15.2.0/backward/auto_ptr.h:
-
-_deps/approvaltests-src/ApprovalTests/namers/NamerFactory.h:
 
 _deps/approvaltests-src/ApprovalTests/namers/DefaultNamerDisposer.h:
 
@@ -874,11 +882,29 @@ _deps/approvaltests-src/ApprovalTests/utilities/Blocker.h:
 
 _deps/approvaltests-src/ApprovalTests/reporters/DefaultFrontLoadedReporter.h:
 
+_deps/approvaltests-src/ApprovalTests/namers/NamerFactory.h:
+
+D:/mingw64/include/c++/15.2.0/backward/auto_ptr.h:
+
+D:/mingw64/include/c++/15.2.0/backward/binders.h:
+
+_deps/approvaltests-src/ApprovalTests/reporters/GenericDiffReporter.h:
+
+D:/mingw64/include/c++/15.2.0/bits/stl_deque.h:
+
+D:/mingw64/include/c++/15.2.0/bits/algorithmfwd.h:
+
 D:/mingw64/include/c++/15.2.0/bits/version.h:
 
 D:/mingw64/include/c++/15.2.0/bits/allocated_ptr.h:
 
 D:/mingw64/include/c++/15.2.0/bits/erase_if.h:
+
+D:/mingw64/include/c++/15.2.0/cwctype:
+
+_deps/approvaltests-src/ApprovalTests/reporters/WindowsReporters.h:
+
+D:/mingw64/include/c++/15.2.0/bits/locale_conv.h:
 
 D:/mingw64/include/c++/15.2.0/bits/basic_ios.h:
 
@@ -938,17 +964,15 @@ D:/mingw64/include/c++/15.2.0/bits/locale_classes.h:
 
 D:/mingw64/include/c++/15.2.0/bits/unordered_map.h:
 
+D:/mingw64/include/c++/15.2.0/debug/assertions.h:
+
+D:/mingw64/include/c++/15.2.0/bits/locale_facets.h:
+
 _deps/approvaltests-src/ApprovalTests/utilities/Grid.h:
 
 D:/mingw64/include/c++/15.2.0/bits/locale_facets_nonio.h:
 
 D:/mingw64/include/c++/15.2.0/bits/locale_facets_nonio.tcc:
-
-_deps/approvaltests-src/ApprovalTests/reporters/WindowsReporters.h:
-
-D:/mingw64/include/c++/15.2.0/bits/locale_conv.h:
-
-D:/mingw64/include/c++/15.2.0/cwctype:
 
 D:/mingw64/include/c++/15.2.0/bits/localefwd.h:
 
@@ -1048,9 +1072,9 @@ D:/mingw64/include/c++/15.2.0/bits/stl_bvector.h:
 
 D:/mingw64/include/c++/15.2.0/set:
 
-D:/mingw64/include/c++/15.2.0/bits/regex_constants.h:
-
 _deps/approvaltests-src/ApprovalTests/core/ApprovalNamer.h:
+
+D:/mingw64/include/c++/15.2.0/bits/regex_constants.h:
 
 D:/mingw64/include/c++/15.2.0/bits/stl_construct.h:
 
@@ -1127,9 +1151,3 @@ D:/mingw64/include/c++/15.2.0/bits/regex_automaton.h:
 D:/mingw64/include/c++/15.2.0/bits/stl_heap.h:
 
 D:/mingw64/include/c++/15.2.0/cstdint:
-
-D:/mingw64/include/c++/15.2.0/cwchar:
-
-D:/mingw64/include/c++/15.2.0/bits/locale_facets.h:
-
-D:/mingw64/include/c++/15.2.0/debug/assertions.h:

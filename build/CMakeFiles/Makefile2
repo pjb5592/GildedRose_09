@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = D:\DEV\GildedRose_09\build
 all: CMakeFiles/gilded_rose.dir/all
 all: CMakeFiles/gilded_rose_test.dir/all
 all: CMakeFiles/gilded_rose_approval_test.dir/all
+all: CMakeFiles/FoodBeverageTest.dir/all
 all: _deps/googletest-build/all
 all: _deps/approvaltests-build/all
 .PHONY : all
@@ -73,6 +74,7 @@ all: _deps/approvaltests-build/all
 codegen: CMakeFiles/gilded_rose.dir/codegen
 codegen: CMakeFiles/gilded_rose_test.dir/codegen
 codegen: CMakeFiles/gilded_rose_approval_test.dir/codegen
+codegen: CMakeFiles/FoodBeverageTest.dir/codegen
 codegen: _deps/googletest-build/codegen
 codegen: _deps/approvaltests-build/codegen
 .PHONY : codegen
@@ -86,6 +88,7 @@ preinstall: _deps/approvaltests-build/preinstall
 clean: CMakeFiles/gilded_rose.dir/clean
 clean: CMakeFiles/gilded_rose_test.dir/clean
 clean: CMakeFiles/gilded_rose_approval_test.dir/clean
+clean: CMakeFiles/FoodBeverageTest.dir/clean
 clean: _deps/googletest-build/clean
 clean: _deps/approvaltests-build/clean
 .PHONY : clean
@@ -224,7 +227,7 @@ _deps/googletest-build/googletest/clean: _deps/googletest-build/googletest/CMake
 CMakeFiles/gilded_rose.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gilded_rose.dir\build.make CMakeFiles/gilded_rose.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gilded_rose.dir\build.make CMakeFiles/gilded_rose.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\DEV\GildedRose_09\build\CMakeFiles --progress-num=71,72 "Built target gilded_rose"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\DEV\GildedRose_09\build\CMakeFiles --progress-num=73,74 "Built target gilded_rose"
 .PHONY : CMakeFiles/gilded_rose.dir/all
 
 # Build rule for subdir invocation for target.
@@ -241,7 +244,7 @@ gilded_rose: CMakeFiles/gilded_rose.dir/rule
 # codegen rule for target.
 CMakeFiles/gilded_rose.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gilded_rose.dir\build.make CMakeFiles/gilded_rose.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\DEV\GildedRose_09\build\CMakeFiles --progress-num=71,72 "Finished codegen for target gilded_rose"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\DEV\GildedRose_09\build\CMakeFiles --progress-num=73,74 "Finished codegen for target gilded_rose"
 .PHONY : CMakeFiles/gilded_rose.dir/codegen
 
 # clean rule for target.
@@ -259,7 +262,7 @@ CMakeFiles/gilded_rose_test.dir/all: _deps/googletest-build/googletest/CMakeFile
 CMakeFiles/gilded_rose_test.dir/all: _deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gilded_rose_test.dir\build.make CMakeFiles/gilded_rose_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gilded_rose_test.dir\build.make CMakeFiles/gilded_rose_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\DEV\GildedRose_09\build\CMakeFiles --progress-num=75,76 "Built target gilded_rose_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\DEV\GildedRose_09\build\CMakeFiles --progress-num=77,78 "Built target gilded_rose_test"
 .PHONY : CMakeFiles/gilded_rose_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -276,7 +279,7 @@ gilded_rose_test: CMakeFiles/gilded_rose_test.dir/rule
 # codegen rule for target.
 CMakeFiles/gilded_rose_test.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gilded_rose_test.dir\build.make CMakeFiles/gilded_rose_test.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\DEV\GildedRose_09\build\CMakeFiles --progress-num=75,76 "Finished codegen for target gilded_rose_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\DEV\GildedRose_09\build\CMakeFiles --progress-num=77,78 "Finished codegen for target gilded_rose_test"
 .PHONY : CMakeFiles/gilded_rose_test.dir/codegen
 
 # clean rule for target.
@@ -294,7 +297,7 @@ CMakeFiles/gilded_rose_approval_test.dir/all: _deps/googletest-build/googletest/
 CMakeFiles/gilded_rose_approval_test.dir/all: _deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gilded_rose_approval_test.dir\build.make CMakeFiles/gilded_rose_approval_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gilded_rose_approval_test.dir\build.make CMakeFiles/gilded_rose_approval_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\DEV\GildedRose_09\build\CMakeFiles --progress-num=73,74 "Built target gilded_rose_approval_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\DEV\GildedRose_09\build\CMakeFiles --progress-num=75,76 "Built target gilded_rose_approval_test"
 .PHONY : CMakeFiles/gilded_rose_approval_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -311,7 +314,7 @@ gilded_rose_approval_test: CMakeFiles/gilded_rose_approval_test.dir/rule
 # codegen rule for target.
 CMakeFiles/gilded_rose_approval_test.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gilded_rose_approval_test.dir\build.make CMakeFiles/gilded_rose_approval_test.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\DEV\GildedRose_09\build\CMakeFiles --progress-num=73,74 "Finished codegen for target gilded_rose_approval_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\DEV\GildedRose_09\build\CMakeFiles --progress-num=75,76 "Finished codegen for target gilded_rose_approval_test"
 .PHONY : CMakeFiles/gilded_rose_approval_test.dir/codegen
 
 # clean rule for target.
@@ -320,13 +323,48 @@ CMakeFiles/gilded_rose_approval_test.dir/clean:
 .PHONY : CMakeFiles/gilded_rose_approval_test.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/FoodBeverageTest.dir
+
+# All Build rule for target.
+CMakeFiles/FoodBeverageTest.dir/all: CMakeFiles/gilded_rose.dir/all
+CMakeFiles/FoodBeverageTest.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
+CMakeFiles/FoodBeverageTest.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+CMakeFiles/FoodBeverageTest.dir/all: _deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FoodBeverageTest.dir\build.make CMakeFiles/FoodBeverageTest.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FoodBeverageTest.dir\build.make CMakeFiles/FoodBeverageTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\DEV\GildedRose_09\build\CMakeFiles --progress-num=71,72 "Built target FoodBeverageTest"
+.PHONY : CMakeFiles/FoodBeverageTest.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/FoodBeverageTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\DEV\GildedRose_09\build\CMakeFiles 78
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/FoodBeverageTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\DEV\GildedRose_09\build\CMakeFiles 0
+.PHONY : CMakeFiles/FoodBeverageTest.dir/rule
+
+# Convenience name for target.
+FoodBeverageTest: CMakeFiles/FoodBeverageTest.dir/rule
+.PHONY : FoodBeverageTest
+
+# codegen rule for target.
+CMakeFiles/FoodBeverageTest.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FoodBeverageTest.dir\build.make CMakeFiles/FoodBeverageTest.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\DEV\GildedRose_09\build\CMakeFiles --progress-num=71,72 "Finished codegen for target FoodBeverageTest"
+.PHONY : CMakeFiles/FoodBeverageTest.dir/codegen
+
+# clean rule for target.
+CMakeFiles/FoodBeverageTest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FoodBeverageTest.dir\build.make CMakeFiles/FoodBeverageTest.dir/clean
+.PHONY : CMakeFiles/FoodBeverageTest.dir/clean
+
+#=============================================================================
 # Target rules for target _deps/googletest-build/googlemock/CMakeFiles/gmock.dir
 
 # All Build rule for target.
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\DEV\GildedRose_09\build\CMakeFiles --progress-num=77,78 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\DEV\GildedRose_09\build\CMakeFiles --progress-num=79,80 "Built target gmock"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -343,7 +381,7 @@ gmock: _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/rule
 # codegen rule for target.
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\DEV\GildedRose_09\build\CMakeFiles --progress-num=77,78 "Finished codegen for target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\DEV\GildedRose_09\build\CMakeFiles --progress-num=79,80 "Finished codegen for target gmock"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/codegen
 
 # clean rule for target.
@@ -359,7 +397,7 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletes
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\DEV\GildedRose_09\build\CMakeFiles --progress-num=79,80 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\DEV\GildedRose_09\build\CMakeFiles --progress-num=81,82 "Built target gmock_main"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -376,7 +414,7 @@ gmock_main: _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule
 # codegen rule for target.
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\DEV\GildedRose_09\build\CMakeFiles --progress-num=79,80 "Finished codegen for target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\DEV\GildedRose_09\build\CMakeFiles --progress-num=81,82 "Finished codegen for target gmock_main"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/codegen
 
 # clean rule for target.
@@ -391,7 +429,7 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/clean:
 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\DEV\GildedRose_09\build\CMakeFiles --progress-num=81,82 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\DEV\GildedRose_09\build\CMakeFiles --progress-num=83,84 "Built target gtest"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -408,7 +446,7 @@ gtest: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/rule
 # codegen rule for target.
 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\DEV\GildedRose_09\build\CMakeFiles --progress-num=81,82 "Finished codegen for target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\DEV\GildedRose_09\build\CMakeFiles --progress-num=83,84 "Finished codegen for target gtest"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest.dir/codegen
 
 # clean rule for target.
@@ -423,7 +461,7 @@ _deps/googletest-build/googletest/CMakeFiles/gtest.dir/clean:
 _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\DEV\GildedRose_09\build\CMakeFiles --progress-num=83,84 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\DEV\GildedRose_09\build\CMakeFiles --progress-num=85,86 "Built target gtest_main"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -440,7 +478,7 @@ gtest_main: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/rule
 # codegen rule for target.
 _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\DEV\GildedRose_09\build\CMakeFiles --progress-num=83,84 "Finished codegen for target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\DEV\GildedRose_09\build\CMakeFiles --progress-num=85,86 "Finished codegen for target gtest_main"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/codegen
 
 # clean rule for target.
