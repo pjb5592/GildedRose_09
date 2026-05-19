@@ -1,0 +1,25 @@
+# ninja log v7
+43	3081	8008752358948060	CMakeFiles/gilded_rose.dir/src/GildedRose.cpp.obj	f2cf325bbdffc37d
+74	3123	8008752359262554	CMakeFiles/texttest_fixture.dir/src/TexttestFixture.cpp.obj	16bbe61a38ae59f6
+54	3533	8008752359062461	CMakeFiles/texttest_simulator.dir/src/TexttestSimulator.cpp.obj	965ca993410ac2d1
+69	4622	8008752359206185	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	39177c1e247878d5
+94	5133	8008752359455315	_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj	b7ec906906632bc0
+87	5313	8008752359384821	CMakeFiles/gilded_rose_golden_test.dir/test/GoldenMasterTest.cpp.obj	30e76aea75befee7
+3085	5328	8008752389371429	libgilded_rose.a	7f28647fcc527e54
+80	5678	8008752359322814	CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.obj	b1a79eb2f2141d03
+5328	7206	8008752411797730	libtexttest_simulator.a	3aefc224a6654865
+62	7563	8008752359133788	_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	702818455ae638c7
+7206	8323	8008752430582161	texttest_fixture.exe	86e2bc7fadff208
+48	13844	8008752359001453	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	d23ae7121dba1dde
+13846	15659	8008752496981259	lib/libgtest.a	3ba11d2e24f2aefc
+15671	17703	8008752515238172	lib/libgtest_main.a	3237d6dd1dce7248
+15659	17746	8008752515112615	lib/libgmock.a	53f923a7f5403431
+17746	19587	8008752535980133	lib/libgmock_main.a	6bb40217d2dedc8d
+17703	20373	8008752562021713	gilded_rose_test.exe	14987b69a18a79c1
+17703	20373	8008752562021713	gilded_rose_test[1]_tests.cmake	14987b69a18a79c1
+17703	20373	8008752562021713	D:/DEV/GildedRose_Prompting_09/cpp/build/gilded_rose_test[1]_tests.cmake	14987b69a18a79c1
+17714	20520	8008752563412731	gilded_rose_golden_test.exe	bcc9feff08f28fcb
+17714	20520	8008752563412731	gilded_rose_golden_test[1]_tests.cmake	bcc9feff08f28fcb
+17714	20520	8008752563412731	D:/DEV/GildedRose_Prompting_09/cpp/build/gilded_rose_golden_test[1]_tests.cmake	bcc9feff08f28fcb
+39	910	8008752571345268	CMakeFiles/update-golden-master	77e6313a506abfba
+39	910	8008752571345268	D:/DEV/GildedRose_Prompting_09/cpp/build/CMakeFiles/update-golden-master	77e6313a506abfba
