@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20260519-0150-Experimental"
+	Name="(empty)"
+	Generator="ctest-4.3.1"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="DESKTOP-9VBPGL9"
+	OSRelease="10.0.26200"
+	OSVersion="Windows 10"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString=""
+	VendorID="Unknown Manufacturer"
+	FamilyID="0"
+	ModelID="0"
+	ModelName=""
+	ProcessorCacheSize="0"
+	NumberOfLogicalCPU="32"
+	NumberOfPhysicalCPU="24"
+	TotalVirtualMemory="2048"
+	TotalPhysicalMemory="32381"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2200.000000"
+	>
+	<Testing>
+		<StartDateTime>May 19 10:50 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
+		<StartTestTime>1779155443</StartTestTime>
+		<TestList/>
+		<EndDateTime>May 19 10:50 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
+		<EndTestTime>1779155443</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

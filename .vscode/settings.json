@@ -1,0 +1,8 @@
+{
+  "cmake.sourceDirectory": "${workspaceFolder}/cpp",
+  "cmake.buildDirectory": "${workspaceFolder}/build",
+  "cmake.configureOnOpen": true,
+  "cmake.ctestArgs": [
+    "--output-on-failure"
+  ]
+}

@@ -1,0 +1,21 @@
+# ninja log v7
+53	2515	8008545550185994	CMakeFiles/gilded_rose.dir/src/GildedRose.cpp.obj	9e311028e3992cd5
+2519	3885	8008545574848920	libgilded_rose.a	7f28647fcc527e54
+62	4621	8008545550274443	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	d1de4785f797c2d0
+68	4706	8008545550335769	CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.obj	a04472ed10fa1f08
+72	5371	8008545550373464	_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj	98c0ceebd66dff25
+57	6572	8008545550235221	_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	2343b76ccd4c56a9
+47	13463	8008545550120523	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	fff31a8e13db1e60
+13465	14521	8008545684315267	lib/libgtest.a	3ba11d2e24f2aefc
+14529	15764	8008545694940556	lib/libgtest_main.a	3237d6dd1dce7248
+14521	15777	8008545694875519	lib/libgmock.a	53f923a7f5403431
+15777	16850	8008545707432190	lib/libgmock_main.a	6bb40217d2dedc8d
+15764	17561	8008545725132815	gilded_rose_test.exe	66a8144a5f4f0e72
+15764	17561	8008545725132815	gilded_rose_test[1]_tests.cmake	66a8144a5f4f0e72
+15764	17561	8008545725132815	D:/DEV/GildedRose_Prompting_09/build/gilded_rose_test[1]_tests.cmake	66a8144a5f4f0e72
+7	1390	8008573422722260	CMakeFiles/gilded_rose.dir/src/GildedRose.cpp.obj	9e311028e3992cd5
+14	2581	8008573422784105	CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.obj	a04472ed10fa1f08
+1390	2593	8008573436550971	libgilded_rose.a	7f28647fcc527e54
+2593	4277	8008573465286547	gilded_rose_test.exe	66a8144a5f4f0e72
+2593	4277	8008573465286547	gilded_rose_test[1]_tests.cmake	66a8144a5f4f0e72
+2593	4277	8008573465286547	D:/DEV/GildedRose_Prompting_09/build/gilded_rose_test[1]_tests.cmake	66a8144a5f4f0e72

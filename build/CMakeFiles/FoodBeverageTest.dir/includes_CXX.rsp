@@ -1,0 +1,1 @@
+-ID:/DEV/GildedRose_09/cpp/include -I"D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests/.." -I"D:/DEV/GildedRose_09/build/_deps/approvaltests-src/ApprovalTests" -isystem "D:/DEV/GildedRose_09/build/_deps/googletest-src/googletest/include" -isystem "D:/DEV/GildedRose_09/build/_deps/googletest-src/googletest"

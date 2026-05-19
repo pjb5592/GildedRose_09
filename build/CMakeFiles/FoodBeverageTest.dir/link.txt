@@ -1,0 +1,3 @@
+D:\mingw64\bin\cmake.exe -E rm -f CMakeFiles\FoodBeverageTest.dir/objects.a
+D:\mingw64\bin\ar.exe qc CMakeFiles\FoodBeverageTest.dir/objects.a @CMakeFiles\FoodBeverageTest.dir\objects1.rsp
+D:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\FoodBeverageTest.dir/objects.a -Wl,--no-whole-archive -o FoodBeverageTest.exe -Wl,--out-implib,libFoodBeverageTest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\FoodBeverageTest.dir\linkLibs.rsp
