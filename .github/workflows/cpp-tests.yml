@@ -1,0 +1,34 @@
+name: C++ Tests
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        build_type: [Debug, Release]
+
+    runs-on: ${{ matrix.os }}
+
+    defaults:
+      run:
+        working-directory: cpp
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure
+        run: cmake -B build -DCMAKE_BUILD_TYPE=${{ matrix.build_type }}
+
+      - name: Build
+        run: cmake --build build --config ${{ matrix.build_type }}
+
+      - name: Run unit and golden master tests
+        run: ctest --test-dir build --build-config ${{ matrix.build_type }} --output-on-failure
