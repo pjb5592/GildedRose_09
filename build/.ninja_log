@@ -13,3 +13,9 @@
 15764	17561	8008545725132815	gilded_rose_test.exe	66a8144a5f4f0e72
 15764	17561	8008545725132815	gilded_rose_test[1]_tests.cmake	66a8144a5f4f0e72
 15764	17561	8008545725132815	D:/DEV/GildedRose_Prompting_09/build/gilded_rose_test[1]_tests.cmake	66a8144a5f4f0e72
+7	1390	8008573422722260	CMakeFiles/gilded_rose.dir/src/GildedRose.cpp.obj	9e311028e3992cd5
+14	2581	8008573422784105	CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.obj	a04472ed10fa1f08
+1390	2593	8008573436550971	libgilded_rose.a	7f28647fcc527e54
+2593	4277	8008573465286547	gilded_rose_test.exe	66a8144a5f4f0e72
+2593	4277	8008573465286547	gilded_rose_test[1]_tests.cmake	66a8144a5f4f0e72
+2593	4277	8008573465286547	D:/DEV/GildedRose_Prompting_09/build/gilded_rose_test[1]_tests.cmake	66a8144a5f4f0e72

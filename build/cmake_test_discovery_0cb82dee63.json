@@ -1,15 +1,145 @@
 {
-  "tests": 1,
+  "tests": 27,
   "name": "AllTests",
   "testsuites": [
     {
-      "name": "GildedRoseTest",
-      "tests": 1,
+      "name": "GildedRoseItemRulesTest",
+      "tests": 27,
       "testsuite": [
         {
-          "name": "Foo",
+          "name": "NormalItemDecreasesSellInAndQualityBeforeSellDate",
           "file": "D:\/DEV\/GildedRose_Prompting_09\/cpp\/test\/GildedRoseTest.cpp",
-          "line": 4
+          "line": 13
+        },
+        {
+          "name": "NormalItemDegradesTwiceAsFastWhenSellInIsZero",
+          "file": "D:\/DEV\/GildedRose_Prompting_09\/cpp\/test\/GildedRoseTest.cpp",
+          "line": 26
+        },
+        {
+          "name": "NormalItemDegradesTwiceAsFastAfterSellDate",
+          "file": "D:\/DEV\/GildedRose_Prompting_09\/cpp\/test\/GildedRoseTest.cpp",
+          "line": 39
+        },
+        {
+          "name": "NormalItemQualityDoesNotDropBelowZeroAtQualityBoundary",
+          "file": "D:\/DEV\/GildedRose_Prompting_09\/cpp\/test\/GildedRoseTest.cpp",
+          "line": 52
+        },
+        {
+          "name": "NormalItemQualityStopsAtZeroWhenExpiredDecrementIsLargerThanQuality",
+          "file": "D:\/DEV\/GildedRose_Prompting_09\/cpp\/test\/GildedRoseTest.cpp",
+          "line": 65
+        },
+        {
+          "name": "AgedBrieIncreasesQualityBeforeSellDate",
+          "file": "D:\/DEV\/GildedRose_Prompting_09\/cpp\/test\/GildedRoseTest.cpp",
+          "line": 78
+        },
+        {
+          "name": "AgedBrieIncreasesTwiceAsFastWhenSellInIsZero",
+          "file": "D:\/DEV\/GildedRose_Prompting_09\/cpp\/test\/GildedRoseTest.cpp",
+          "line": 91
+        },
+        {
+          "name": "AgedBrieIncreasesTwiceAsFastAfterSellDate",
+          "file": "D:\/DEV\/GildedRose_Prompting_09\/cpp\/test\/GildedRoseTest.cpp",
+          "line": 104
+        },
+        {
+          "name": "AgedBrieQualityDoesNotExceedFiftyAtQualityBoundary",
+          "file": "D:\/DEV\/GildedRose_Prompting_09\/cpp\/test\/GildedRoseTest.cpp",
+          "line": 117
+        },
+        {
+          "name": "AgedBrieExpiredQualityIncreaseIsCappedAtFifty",
+          "file": "D:\/DEV\/GildedRose_Prompting_09\/cpp\/test\/GildedRoseTest.cpp",
+          "line": 130
+        },
+        {
+          "name": "BackstagePassIncreasesQualityByOneWhenMoreThanTenDaysRemain",
+          "file": "D:\/DEV\/GildedRose_Prompting_09\/cpp\/test\/GildedRoseTest.cpp",
+          "line": 143
+        },
+        {
+          "name": "BackstagePassIncreasesQualityByTwoWhenTenDaysRemain",
+          "file": "D:\/DEV\/GildedRose_Prompting_09\/cpp\/test\/GildedRoseTest.cpp",
+          "line": 156
+        },
+        {
+          "name": "BackstagePassIncreasesQualityByThreeWhenFiveDaysRemain",
+          "file": "D:\/DEV\/GildedRose_Prompting_09\/cpp\/test\/GildedRoseTest.cpp",
+          "line": 169
+        },
+        {
+          "name": "BackstagePassQualityDoesNotExceedFiftyAtQualityBoundary",
+          "file": "D:\/DEV\/GildedRose_Prompting_09\/cpp\/test\/GildedRoseTest.cpp",
+          "line": 182
+        },
+        {
+          "name": "BackstagePassQualityDropsToZeroWhenSellInIsZero",
+          "file": "D:\/DEV\/GildedRose_Prompting_09\/cpp\/test\/GildedRoseTest.cpp",
+          "line": 195
+        },
+        {
+          "name": "BackstagePassQualityStaysZeroAfterConcert",
+          "file": "D:\/DEV\/GildedRose_Prompting_09\/cpp\/test\/GildedRoseTest.cpp",
+          "line": 208
+        },
+        {
+          "name": "SulfurasDoesNotChangeBeforeSellDate",
+          "file": "D:\/DEV\/GildedRose_Prompting_09\/cpp\/test\/GildedRoseTest.cpp",
+          "line": 221
+        },
+        {
+          "name": "SulfurasDoesNotChangeWhenSellInIsZero",
+          "file": "D:\/DEV\/GildedRose_Prompting_09\/cpp\/test\/GildedRoseTest.cpp",
+          "line": 234
+        },
+        {
+          "name": "SulfurasDoesNotChangeAfterSellDate",
+          "file": "D:\/DEV\/GildedRose_Prompting_09\/cpp\/test\/GildedRoseTest.cpp",
+          "line": 247
+        },
+        {
+          "name": "SulfurasIsNotCappedAtNormalMaximumQuality",
+          "file": "D:\/DEV\/GildedRose_Prompting_09\/cpp\/test\/GildedRoseTest.cpp",
+          "line": 260
+        },
+        {
+          "name": "SulfurasKeepsNonStandardQualityUnchanged",
+          "file": "D:\/DEV\/GildedRose_Prompting_09\/cpp\/test\/GildedRoseTest.cpp",
+          "line": 273
+        },
+        {
+          "name": "ConjuredItemDecreasesQualityByTwoBeforeSellDate",
+          "file": "D:\/DEV\/GildedRose_Prompting_09\/cpp\/test\/GildedRoseTest.cpp",
+          "line": 286
+        },
+        {
+          "name": "ConjuredItemDecreasesQualityByFourWhenSellInIsZero",
+          "file": "D:\/DEV\/GildedRose_Prompting_09\/cpp\/test\/GildedRoseTest.cpp",
+          "line": 299
+        },
+        {
+          "name": "ConjuredItemDecreasesQualityByFourAfterSellDate",
+          "file": "D:\/DEV\/GildedRose_Prompting_09\/cpp\/test\/GildedRoseTest.cpp",
+          "line": 312
+        },
+        {
+          "name": "ConjuredItemQualityDoesNotDropBelowZeroAtQualityBoundary",
+          "file": "D:\/DEV\/GildedRose_Prompting_09\/cpp\/test\/GildedRoseTest.cpp",
+          "line": 325
+        },
+        {
+          "name": "ConjuredItemQualityStopsAtZeroWhenExpiredDecrementIsLargerThanQuality",
+          "file": "D:\/DEV\/GildedRose_Prompting_09\/cpp\/test\/GildedRoseTest.cpp",
+          "line": 338
+        },
+        {
+          "name": "ConjuredPrefixNameUsesConjuredRules",
+          "file": "D:\/DEV\/GildedRose_Prompting_09\/cpp\/test\/GildedRoseTest.cpp",
+          "line": 351
         }
       ]
     }
